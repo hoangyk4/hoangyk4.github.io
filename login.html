@@ -42,11 +42,11 @@
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Nhập tài khoản đăng nhập">
+                                                placeholder="Tài khoản đăng nhập">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Nhập Mật khẩu">
+                                                id="exampleInputPassword" placeholder="Mật khẩu">
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
@@ -55,7 +55,7 @@
                                             </div>
                                         </div>
                                         <a href="index.html" class="btn btn-primary btn-user btn-block">
-                                            Login
+                                            Đăng nhập
                                         </a>
                                         <hr>
                                         <a href="index.html" class="btn btn-google btn-user btn-block">
@@ -70,7 +70,7 @@
                                         <a class="small" href="#">Quên Mật khẩu?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="#">Tạo Tài Khoản!</a>
+                                        <a class="small" href="#" data-toggle="modal" data-target="#createModal">Tạo Tài Khoản!</a>
                                     </div>
                                 </div>
                             </div>
@@ -91,6 +91,68 @@
     </footer>
     <!-- End of Footer -->
 
+    <!-- User Modal-->
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Đăng ký Tài khoản</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-4">Tên đăng nhập</div>
+                <div class="col-md-6"><input class="form-control" type="text"/></div>
+            </div>
+            &ensp;
+            <div class="row">
+                <div class="col-md-4">Mật khẩu</div>
+                <div class="col-md-6"><input class="form-control" type="password"/></div>
+            </div>
+            &ensp;
+            <div class="row">
+                <div class="col-md-4">Họ Tên</div>
+                <div class="col-md-6"><input class="form-control" type="text"/></div>
+            </div>
+            &ensp;
+            <div class="row">
+                <div class="col-md-4">Ngày sinh</div>
+                <div class="col-md-6"><input class="form-control" type="date" name="birth" id="1"></div>
+            </div>
+            &ensp;
+            <div class="row">
+                <div class="col-md-4">Email</div>
+                <div class="col-md-6"><input class="form-control" type="text"/></div>
+            </div>
+            &emsp;
+            <div class="row">
+                <div class="col-md-4">Điện thoại</div>
+                <div class="col-md-6"><input class="form-control" type="text"/></div>
+            </div>    
+                <br />
+                <div class="row">
+                    <div class="col-md-4">Điều khoản cần chú ý</div>
+                    <div class="col-md-6">
+                        <textarea class="form-control" name="txtComment" id="txtComment" rows="5" cols="25" disabled>
+Một số thông tin cần lưu ý khi đăng ký:
+1. Khi sử dụng dịch vụ của chúng tôi, bạn tin tưởng cung cấp thông tin của bạn cho chúng tôi. Chúng tôi hiểu rằng đây là một trách nhiệm lớn và chúng tôi nỗ lực bảo vệ thông tin của bạn cũng như để bạn nắm quyền kiểm soát.
+2. Chúng tôi sử dụng dữ liệu để phát triển các dịch vụ tốt hơn
+3. Bạn có các lựa chọn liên quan đến thông tin chúng tôi thu thập và cách thông tin được sử dụng
+4. Nhiều dịch vụ của chúng tôi cho phép bạn chia sẻ thông tin với người khác và bạn nắm quyền kiểm soát cách chia sẻ. Ví dụ: bạn có thể chia sẻ công khai video trên YouTube hoặc có thể quyết định giữ các video của bạn ở chế độ riêng tư. Xin nhớ rằng khi bạn chia sẻ công khai thông tin, nội dung của bạn có thể truy cập được thông qua các công cụ tìm kiếm, bao gồm cả Google Tìm kiếm.
+5. Tất cả các sản phẩm của Google đều được tích hợp các tính năng bảo mật mạnh mẽ, liên tục bảo vệ thông tin của bạn. Thông tin chi tiết chúng tôi có được từ việc duy trì các dịch vụ giúp chúng tôi phát hiện và tự động chặn các mối đe dọa về bảo mật để chúng không bao giờ tiếp cận được đến bạn. Nếu phát hiện thấy điều gì đó có khả năng gây rủi ro mà chúng tôi cho là bạn nên biết, chúng tôi sẽ thông báo cho bạn và hướng dẫn bạn thực hiện các bước để được bảo vệ tốt hơn.
+                        </textarea>
+                    </div>
+                </div> 
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Đăng ký</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ bỏ</button>
+        </div>
+    </div>
+    </div>
+</div>
 
 <!-- Bootstrap core JavaScript-->
 <script src="style/vendor/jquery/jquery.min.js"></script>
