@@ -172,6 +172,10 @@
                     <!-- Dropdown - User Information -->
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                         aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#managerModal">
+                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Quản Lý
+                        </a>
                         <a class="dropdown-item" href="#" data-toggle="modal" data-target="#userModal">
                             <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                             Tài khoản
@@ -535,6 +539,53 @@ aria-hidden="true">
         <div class="modal-footer">
             <button type="button" class="btn btn-primary">Lưu và Thoát</button>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ bỏ</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Manager MODAL -->
+<div class="modal fade" id="managerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Danh sách tài khoản</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead class="thead-dark"> 
+                    <tr>
+                        <th>STT</th>
+                        <th>Tài khoản</th>
+                        <th>Họ Tên</th>
+                        <th>Ngày sinh</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>admin</td>
+                        <td>Hoang Harry</td>
+                        <td>6/23/1993</td>
+                        <td>hoangk4@gmail.com</td>
+                        <td>0961971902</td>
+                        <td>
+                            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#editModal">Edit</button> | 
+                            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="modal-footer">
+        <a class="btn btn-primary" href="index.html">Lưu</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ bỏ</button>
         </div>
     </div>
     </div>
