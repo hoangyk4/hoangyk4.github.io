@@ -172,7 +172,7 @@
                     <!-- Dropdown - User Information -->
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                         aria-labelledby="userDropdown">
-                        <a class="dropdown-item" href="admin.html">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#managerModal">
                             <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                             Quản Lý
                         </a>
@@ -210,69 +210,14 @@
                 <a href="index.html">Tasks</a> |
                 <a href="categories.html">Categories</a>
             </div>
-
-            <div class="page">
-                <h2>Task</h2>
-                &ensp;
-                <div class="row">
-                    <div class="col-xl-2">Tasks</div>
-                    <div class="col-xl-2"><input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"></div>
-                </div>
-                &ensp;
-                <div class="row">
-                    <div class="col-xl-2">Categories</div>
-                    <div class="col-xl-2">
-                        <select name="Category" class="form-control" id="1">
-                            <option value="">Đọc sách</option>
-                            <option value="">Mua sắm</option>
-                            <option value="">Học tập</option>
-                            <option value="">Thể dục</option>
-                        </select>
-                    </div> 
-                </div>
-                &ensp;
-                <div class="row">
-                    <div class="col-xl-2">IsCompeled</div>
-                    <div class="col-xl-2">
-                        <select name="Compeled" class="form-control" id="1">
-                            <option value="">Đang thực hiện</option>
-                            <option value="">Hoàn thành</option>
-                        </select>
-                    </div>
-                </div>
-                &ensp;
-                <div class="row"><div class="col-xl-2">CreateDate</div></div>
-                <div class="row">
-                    <div class="col-xl-1"></div>
-                    <div class="col-xl-1">From</div>
-                    <div class="col-xl-2"><input type="date" class="form-control" name="start" id="1"></div>
-                    <div class="col-xl-1">To</div>
-                    <div class="col-xl-2"><input type="date" class="form-control" name="start" id="2"></div>
-                    <div class="col-xl-2"></div>
-                </div>
-                &ensp;
-                <div class="row"><div class="col-xl-2">DueDate</div></div>
-                <div class="row">
-                    <div class="col-xl-1"></div>
-                    <div class="col-xl-1">From</div>
-                    <div class="col-xl-2"><input type="date" class="form-control" name="start" id="3"></div>
-                    <div class="col-xl-1">To</div>
-                    <div class="col-xl-2"><input type="date" class="form-control" name="start" id="4"></div>
-                    <div class="col-xl-2"></div>
-                </div>
-            </div>
             &ensp;
-            <div class="text-center">
-                <button type="button" class="btn btn-primary btn-lg">Search</button>
-            </div>
-            &ensp;
+            <h2>Danh sách tài khoản</h2>
+            <hr>
             <div class="row">
-                <div class="col-xl-6"></div>
-                <div class="col-xl-2"></div>
-                <div class="col-xl-2"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#editModal">Create Task</button></div>
-                <div class="col-xl-2"><button type="button" class="btn btn-secondary">Export CSV</button></div>    
+                <div class="col-xl-2"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#userModal">Thêm mới</button></div>
+                <!-- <div class="col-xl-2"><button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#deleteModal">Chỉnh sửa</button></div> -->
             </div>
-            &ensp;
+            <hr>
             <div class="d-flex flex-row-reverse">
                 <ul class="pagination">
                     <li class="page-item"><a class="page-link" href="#">Trước</a></li>
@@ -289,88 +234,52 @@
                         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th>No</th>
-                                    <th>Task</th>
-                                    <th>CreateDate</th>
-                                    <th>Category</th>
-                                    <th>IsCompeled</th>
-                                    <th>DueDate</th>
-                                    <th>Action</th>
+                                    <th>STT</th>
+                                    <th>Tài khoản</th>
+                                    <th>Họ Tên</th>
+                                    <th>Ngày sinh</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Acton</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td style="width: 20rem;">Harry Potter</td>
-                                    <td>6/9/2021</td>
-                                    <td>Đọc sách</td>
-                                    <td style="width: 15em;">Đang thực hiện</td>
-                                    <td>6/23/2021</td>
+                                    <td>admin</td>
+                                    <td>Hoang Harry</td>
+                                    <td>6/23/1993</td>
+                                    <td>hoangk4@gmail.com</td>
+                                    <td>0961971902</td>
                                     <td>
-                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#editModal">Edit</button> | 
+                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#userModal">Edit</button> | 
                                         <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Laptop</td>
-                                    <td>6/9/2021</td>
-                                    <td>Mua sắm</td>
-                                    <td>Hoàn thành</td>
-                                    <td>6/9/2021</td>
+                                    <td>admin2</td>
+                                    <td>Hoang Harry</td>
+                                    <td>6/23/1993</td>
+                                    <td>hoang.nx236@gmail.com</td>
+                                    <td>0961971902</td>
                                     <td>
-                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#editModal">Edit</button> | 
+                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#userModal">Edit</button> | 
                                         <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>HTML</td>
-                                    <td>6/9/2021</td>
-                                    <td>Học tập</td>
-                                    <td>Đang thực hiện</td>
-                                    <td>6/15/2021</td>
+                                    <td>admin3</td>
+                                    <td>Hoang Harry</td>
+                                    <td>6/23/1993</td>
+                                    <td>hoanghnx6@gmail.com</td>
+                                    <td>0961971902</td>
                                     <td>
-                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#editModal">Edit</button> | 
+                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#userModal">Edit</button> | 
                                         <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Plank</td>
-                                    <td>6/1/2021</td>
-                                    <td>Thể Dục</td>
-                                    <td>Đang thực hiện</td>
-                                    <td>6/30/2021</td>
-                                    <td>
-                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#editModal">Edit</button> | 
-                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>Accountant</td>
-                                    <td>12/2/2021</td>
-                                    <td>Thể Dục</td>
-                                    <td>Đang thực hiện</td>
-                                    <td>12/2/2021</td>
-                                    <td>
-                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#editModal">Edit</button> | 
-                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>Integration Specialist</td>
-                                    <td>12/2/2021</td>
-                                    <td>Đọc Sách</td>
-                                    <td>Đang thực hiện</td>
-                                    <td>12/2/2021</td>
-                                    <td>
-                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#editModal">Edit</button> | 
-                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
-                                    </td>
-                                </tr>                        
                             </tbody>
                         </table>
                     </div>
@@ -458,6 +367,16 @@
   </div>
     <!-- End of Funciton Delete -->
 
+    <!-- Footer -->
+    <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+                <span>&copy; Hoang Harry, June 23, 2021</span>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
 <!-- Logout Modal-->
 <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
 aria-hidden="true">
@@ -533,16 +452,6 @@ aria-hidden="true">
     </div>
     </div>
 </div>
-
-    <!-- Footer -->
-    <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-            <div class="copyright text-center my-auto">
-                <span>&copy; Hoang Harry, June 23, 2021</span>
-            </div>
-        </div>
-    </footer>
-    <!-- End of Footer -->
 
 
 <!-- Bootstrap core JavaScript-->
