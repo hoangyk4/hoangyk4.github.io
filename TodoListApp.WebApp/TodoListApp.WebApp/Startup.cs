@@ -23,6 +23,8 @@ namespace TodoListApp.WebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSession();
+            services.AddMvc();
             services.AddControllersWithViews();
         }
 
@@ -44,6 +46,7 @@ namespace TodoListApp.WebApp
 
             app.UseRouting();
 
+            app.UseSession();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -51,6 +54,7 @@ namespace TodoListApp.WebApp
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                
             });
         }
     }

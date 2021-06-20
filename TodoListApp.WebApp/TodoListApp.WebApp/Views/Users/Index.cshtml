@@ -1,20 +1,10 @@
-﻿
+﻿@model PagedList.IPagedList<TodoListApp.WebApp.DBModel.User>
+@using PagedList.Mvc;
 @{
     ViewData["Title"] = "Admin";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!-- Page Heading -->
-<div class="rowheader">
-    <h1>Todolist MVC App</h1>
-</div>
-
-<div class="text-center">
-    <a href="index.html">Home</a> |
-    <a href="index.html">Tasks</a> |
-    <a href="categories.html">Categories</a>
-</div>
-            &ensp;
 <h2>Danh sách tài khoản</h2>
 <hr>
 <div class="row">
@@ -48,42 +38,23 @@
             </tr>
         </thead>
         <tbody>
+            @foreach (var item in Model)
+            {
             <tr>
-                <td>1</td>
-                <td>admin</td>
-                <td>Hoang Harry</td>
-                <td>6/23/1993</td>
-                <td>hoangk4@gmail.com</td>
-                <td>0961971902</td>
+                <td>@item.ID</td>
+                <td>@item.UserName</td>
+                <td>@item.Name</td>
+                <td>@item.Birth</td>
+                <td>@item.Email</td>
+                <td>@item.Phone</td>
                 <td>
                     <button type="button" class="btn btn-link" data-toggle="modal" data-target="#userModal">Edit</button> |
                     <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
                 </td>
             </tr>
-            <tr>
-                <td>2</td>
-                <td>admin2</td>
-                <td>Hoang Harry</td>
-                <td>6/23/1993</td>
-                <td>hoang.nx236@gmail.com</td>
-                <td>0961971902</td>
-                <td>
-                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#userModal">Edit</button> |
-                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
-                </td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>admin3</td>
-                <td>Hoang Harry</td>
-                <td>6/23/1993</td>
-                <td>hoanghnx6@gmail.com</td>
-                <td>0961971902</td>
-                <td>
-                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#userModal">Edit</button> |
-                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
-                </td>
-            </tr>
+
+            }
+  
         </tbody>
     </table>
 </div>

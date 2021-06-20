@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\Tranning Hoang\\html\\hoangyk4.github.io\\TodoListApp.WebApp\\TodoListApp.WebApp\\TodoListApp.WebApp.csproj": {}
+    "D:\\ProjectHoang\\hoangyk4.github.io\\TodoListApp.WebApp\\TodoListApp.WebApp\\TodoListApp.WebApp.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\Tranning Hoang\\html\\hoangyk4.github.io\\TodoListApp.WebApp\\TodoListApp.WebApp\\TodoListApp.WebApp.csproj": {
+    "D:\\ProjectHoang\\hoangyk4.github.io\\TodoListApp.WebApp\\TodoListApp.WebApp\\TodoListApp.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Tranning Hoang\\html\\hoangyk4.github.io\\TodoListApp.WebApp\\TodoListApp.WebApp\\TodoListApp.WebApp.csproj",
+        "projectUniqueName": "D:\\ProjectHoang\\hoangyk4.github.io\\TodoListApp.WebApp\\TodoListApp.WebApp\\TodoListApp.WebApp.csproj",
         "projectName": "TodoListApp.WebApp",
-        "projectPath": "E:\\Projects\\Tranning Hoang\\html\\hoangyk4.github.io\\TodoListApp.WebApp\\TodoListApp.WebApp\\TodoListApp.WebApp.csproj",
-        "packagesPath": "C:\\Users\\chien.vuxuan\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Tranning Hoang\\html\\hoangyk4.github.io\\TodoListApp.WebApp\\TodoListApp.WebApp\\obj\\",
+        "projectPath": "D:\\ProjectHoang\\hoangyk4.github.io\\TodoListApp.WebApp\\TodoListApp.WebApp\\TodoListApp.WebApp.csproj",
+        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectHoang\\hoangyk4.github.io\\TodoListApp.WebApp\\TodoListApp.WebApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chien.vuxuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,6 +66,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "PagedList.Mvc": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           },
           "imports": [

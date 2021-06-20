@@ -198,13 +198,25 @@
             </nav>
             <!-- End of Topbar -->
             <!-- Begin Page Content -->
-        <div class="container-fluid">
-            @RenderBody()
+            <div class="container-fluid">
+                <!-- Page Heading -->
+                <div class="rowheader">
+                    <h1>Todolist MVC App</h1>
+                </div>
 
+                <div class="text-center">
+                    <a href="index.html">Home</a> |
+                    <a href="index.html">Tasks</a> |
+                    <a href="categories.html">Categories</a>
+                </div>
+
+
+                @RenderBody()
+            </div>
+            <!-- /.container-fluid -->
         </div>
     </div>
     <!-- End of Main Content -->
-
 
     <!-- DELETE MODAL -->
     <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -225,6 +237,7 @@
         </div>
     </div>
     <!-- End of Funciton Delete -->
+
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true">
@@ -238,7 +251,7 @@
                 </div>
                 <div class="modal-body">Bạn muốn Đăng xuất?</div>
                 <div class="modal-footer">
-                    <a class="btn btn-primary" href="login.html">Đăng xuất</a>
+                    <a class="btn btn-primary" asp-controller="Login">Đăng xuất</a>
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Huỷ bỏ</button>
                 </div>
             </div>
@@ -300,7 +313,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- Footer -->
     <footer class="sticky-footer bg-white">
