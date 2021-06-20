@@ -1,0 +1,17 @@
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\bin\Debug\net5.0\TodoListApp.ViewModels.deps.json
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\bin\Debug\net5.0\TodoListApp.ViewModels.dll
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\bin\Debug\net5.0\ref\TodoListApp.ViewModels.dll
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\bin\Debug\net5.0\TodoListApp.ViewModels.pdb
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\bin\Debug\net5.0\TodoListApp.Data.dll
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\bin\Debug\net5.0\TodoListApp.Utilities.dll
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\bin\Debug\net5.0\TodoListApp.Data.pdb
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\bin\Debug\net5.0\TodoListApp.Utilities.pdb
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\obj\Debug\net5.0\TodoListApp.ViewModels.csproj.AssemblyReference.cache
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\obj\Debug\net5.0\TodoListApp.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\obj\Debug\net5.0\TodoListApp.ViewModels.AssemblyInfoInputs.cache
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\obj\Debug\net5.0\TodoListApp.ViewModels.AssemblyInfo.cs
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\obj\Debug\net5.0\TodoListApp.ViewModels.csproj.CoreCompileInputs.cache
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\obj\Debug\net5.0\TodoListApp.ViewModels.csproj.CopyComplete
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\obj\Debug\net5.0\TodoListApp.ViewModels.dll
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\obj\Debug\net5.0\ref\TodoListApp.ViewModels.dll
+D:\VS Project\TodoListApp.WebApp\TodoListApp.ViewModels\obj\Debug\net5.0\TodoListApp.ViewModels.pdb

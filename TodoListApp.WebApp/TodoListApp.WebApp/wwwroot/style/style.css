@@ -1,0 +1,23 @@
+#page-top{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.rowheader{
+    color: brown;
+    text-align: center;
+}
+.rowheader h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.page{
+    margin-left: 5%;
+    
+}
+.page .row{
+    margin-left: 5%;
+    font-size: 17px;
+}
+
+table{text-align: center;}
