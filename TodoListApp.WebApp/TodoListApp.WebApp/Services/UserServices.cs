@@ -6,7 +6,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using TodoListApp.WebApp.DBModel;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using PagedList;
 
 namespace TodoListApp.WebApp.Services
 {
@@ -83,9 +82,6 @@ namespace TodoListApp.WebApp.Services
         {
             return context.Users.Find(id);
         }
-        public IEnumerable<User> ListAllPaging(int page, int pageSize)
-        {
-            return context.Users.ToPagedList(page, pageSize);
-        }
+
     }
 }

@@ -13,6 +13,8 @@ namespace TodoListApp.WebApp.DBModel
 
         }
 
+        public ToDoContext(DbContextOptions<ToDoContext> options) : base(options) { }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlServer(@"Server=CET-TKDA-005\MSSQLSERVER2016;Database=ToDoList; User Id =sa;password=Abc@1234;");

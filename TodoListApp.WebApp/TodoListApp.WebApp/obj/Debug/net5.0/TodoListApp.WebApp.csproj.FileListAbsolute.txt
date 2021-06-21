@@ -1,308 +1,3 @@
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\appsettings.Development.json
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\appsettings.json
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.exe
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.deps.json
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.runtimeconfig.json
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.runtimeconfig.dev.json
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ref\TodoListApp.WebApp.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.pdb
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.Views.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.Views.pdb
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.AssemblyReference.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.AssemblyInfoInputs.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.AssemblyInfo.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.CoreCompileInputs.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.MvcApplicationPartsAssemblyInfo.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorAssemblyInfo.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorAssemblyInfo.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\staticwebassets\TodoListApp.WebApp.StaticWebAssets.Manifest.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\staticwebassets\TodoListApp.WebApp.StaticWebAssets.xml
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\scopedcss\bundle\TodoListApp.WebApp.styles.css
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.TagHelpers.input.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.TagHelpers.output.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorCoreGenerate.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorTargetAssemblyInfo.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorTargetAssemblyInfo.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.Views.pdb
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.CopyComplete
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\ref\TodoListApp.WebApp.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.pdb
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.genruntimeconfig.cache
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\Category.cshtml.g.cs
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Humanizer.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.Data.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.Data.pdb
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Newtonsoft.Json.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Runtime.Caching.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.AttributedModel.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.Convention.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.Hosting.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.Runtime.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.TypedParts.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-D:\VS Project\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\Admin.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.pdb
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\appsettings.Development.json
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\appsettings.json
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.exe
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.deps.json
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.runtimeconfig.json
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.runtimeconfig.dev.json
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ref\TodoListApp.WebApp.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.pdb
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.Views.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.Views.pdb
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Humanizer.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Newtonsoft.Json.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.AttributedModel.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.Convention.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.Hosting.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.Runtime.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.TypedParts.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.AssemblyReference.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.GeneratedMSBuildEditorConfig.editorconfig
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.AssemblyInfoInputs.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.AssemblyInfo.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.CoreCompileInputs.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.MvcApplicationPartsAssemblyInfo.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorAssemblyInfo.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorAssemblyInfo.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\staticwebassets\TodoListApp.WebApp.StaticWebAssets.Manifest.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\staticwebassets\TodoListApp.WebApp.StaticWebAssets.xml
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\scopedcss\bundle\TodoListApp.WebApp.styles.css
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.TagHelpers.input.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.TagHelpers.output.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorCoreGenerate.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\Admin.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\Category.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorTargetAssemblyInfo.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorTargetAssemblyInfo.cs
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.Views.pdb
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.CopyComplete
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\ref\TodoListApp.WebApp.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.genruntimeconfig.cache
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Runtime.Caching.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-E:\Projects\Tranning Hoang\html\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\appsettings.Development.json
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\appsettings.json
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.exe
@@ -315,6 +10,13 @@ D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Deb
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.Views.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\TodoListApp.WebApp.Views.pdb
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Humanizer.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -328,62 +30,6 @@ D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Deb
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Newtonsoft.Json.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Runtime.Caching.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.AssemblyReference.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.AssemblyInfoInputs.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.AssemblyInfo.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.CoreCompileInputs.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.MvcApplicationPartsAssemblyInfo.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorAssemblyInfo.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorAssemblyInfo.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\staticwebassets\TodoListApp.WebApp.StaticWebAssets.Manifest.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\staticwebassets\TodoListApp.WebApp.StaticWebAssets.xml
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\scopedcss\bundle\TodoListApp.WebApp.styles.css
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.TagHelpers.input.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.TagHelpers.output.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorCoreGenerate.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\Category.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorTargetAssemblyInfo.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorTargetAssemblyInfo.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.Views.pdb
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.CopyComplete
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\ref\TodoListApp.WebApp.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.pdb
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.genruntimeconfig.cache
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -392,11 +38,17 @@ D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Deb
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.AttributedModel.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.Convention.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.Hosting.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.Runtime.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -449,11 +101,52 @@ D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Deb
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.AssemblyReference.cache
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.AssemblyInfoInputs.cache
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.AssemblyInfo.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.CoreCompileInputs.cache
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorAssemblyInfo.cache
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorAssemblyInfo.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\staticwebassets\TodoListApp.WebApp.StaticWebAssets.Manifest.cache
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\staticwebassets\TodoListApp.WebApp.StaticWebAssets.xml
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\scopedcss\bundle\TodoListApp.WebApp.styles.css
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.TagHelpers.input.cache
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.TagHelpers.output.cache
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorCoreGenerate.cache
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\Category.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Login\Create.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Users\Create.cshtml.g.cs
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\PagedList.dll
-D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\PagedList.Mvc.dll
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Users\Edit.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorTargetAssemblyInfo.cache
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.RazorTargetAssemblyInfo.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.Views.pdb
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.csproj.CopyComplete
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\ref\TodoListApp.WebApp.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.pdb
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\TodoListApp.WebApp.genruntimeconfig.cache

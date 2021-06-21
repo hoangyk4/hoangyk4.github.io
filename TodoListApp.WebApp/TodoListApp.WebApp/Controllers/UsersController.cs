@@ -6,17 +6,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using TodoListApp.WebApp.DBModel;
 using TodoListApp.WebApp.Services;
-using PagedList;
 
 namespace TodoListApp.WebApp.Controllers
 {
     public class UsersController : Controller
     {
         // GET: UsersController
-        public ActionResult Index(int page = 1, int pageSize = 10)
+        public ActionResult Index()
         {
             var dao = new UserServices();
-            var model = dao.ListAllPaging(page, pageSize);
+            var model = dao.GetAllUser();
             return View(model);
         }
 
