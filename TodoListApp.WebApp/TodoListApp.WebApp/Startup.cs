@@ -29,6 +29,7 @@ namespace TodoListApp.WebApp
 
             services.AddSession();
             services.AddMvc();
+            services.AddDbContext<ToDoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("TodoListAppDatabase")));
             services.AddControllersWithViews();
         }
 
@@ -57,7 +58,7 @@ namespace TodoListApp.WebApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Users}/{action=Index}/{id?}");
                 
             });
         }

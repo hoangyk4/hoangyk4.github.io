@@ -11,7 +11,6 @@ namespace TodoListApp.WebApp.Controllers
 {
     public class UsersController : Controller
     {
-        private readonly ToDoContext context;
         // GET: UsersController
         public ActionResult Index()
         {
