@@ -11,6 +11,7 @@ namespace TodoListApp.WebApp.Controllers
 {
     public class UsersController : Controller
     {
+        private readonly ToDoContext context;
         // GET: UsersController
         public ActionResult Index()
         {
@@ -49,6 +50,55 @@ namespace TodoListApp.WebApp.Controllers
                     else
                     {
                         ModelState.AddModelError("", "Thêm mới không thành công");
+                    }
+                }
+                return View("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: UsersController/AddOrEdit
+        [HttpGet]
+        public ActionResult AddOrEdit(int id)
+        {
+            var userviewdetail = new UserServices().ViewDetail(id);
+            var user = new User();
+            return PartialView("_UserModelPartial", user);
+        }
+
+        // POST: UsersController/AddOrEdit
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult AddOrEdit(User collection)
+        {
+            try
+            {
+                // TODO: Add update logic here
+                if (ModelState.IsValid)
+                {
+                    var dao = new UserServices();
+                    //Create
+                    int id = dao.Insert(collection);
+                    if (id > 0)
+                    {
+                        return PartialView("_UserModelPartial", collection);
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Thêm mới không thành công");
+                    }
+                    //Edit
+                    var result = dao.Update(collection);
+                    if (result)
+                    {
+                        return PartialView("_UserModelPartial", collection);
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Cập nhật thông tin không thành công");
                     }
                 }
                 return View("Index");
