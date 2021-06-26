@@ -205,9 +205,9 @@
                 </div>
 
                 <div class="text-center">
-                    <a href="index.html">Home</a> |
-                    <a href="index.html">Tasks</a> |
-                    <a href="categories.html">Categories</a>
+                    <button type="button" class="btn btn-link" onclick="location.href='@Url.Action("Index", "Tasks")'">Home</button> |
+                    <button type="button" class="btn btn-link" onclick="location.href='@Url.Action("Index", "Tasks")'">Tasks</button> |
+                    <button type="button" class="btn btn-link" onclick="location.href='@Url.Action("Index", "Categories")'">Categories</button>
                 </div>
 
 
@@ -274,7 +274,7 @@
     <!-- Custom scripts for all pages-->
     <script src="style/js/sb-admin-2.min.js"></script>
     <script src="style/js/sb-admin-2.js"></script>
-
+    <script src="~/js/site.js" asp-append-version="true"></script>
     <!-- Page level plugins -->
     <script src="style/vendor/datatables/dataTables.bootstrap4.min.js"></script>
 

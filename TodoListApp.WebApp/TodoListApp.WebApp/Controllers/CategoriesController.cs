@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TodoListApp.WebApp.DBModel;
+using TodoListApp.WebApp.Services;
 
 namespace TodoListApp.WebApp.Controllers
 {
@@ -43,7 +44,7 @@ namespace TodoListApp.WebApp.Controllers
         }
 
         // GET: Categories/Create
-        public IActionResult Create()
+        public ActionResult Create()
         {
             return View();
         }
@@ -53,31 +54,36 @@ namespace TodoListApp.WebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Name,Status,CreatedDate,CreatedBy,UpdatedDate,UpdatedBy")] Category category)
+        public ActionResult Create(Category category)
         {
-            if (ModelState.IsValid)
+            try
             {
-                _context.Add(category);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if (ModelState.IsValid)
+                {
+                    var dao = new CategoryServices();
+                    int id = dao.Insert(category);
+                    if (id > 0)
+                    {
+                        return RedirectToAction("Index", "Categories");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Thêm mới không thành công");
+                    }
+                }
+                return View("Index");
             }
-            return View(category);
+            catch
+            {
+                return View();
+            }
         }
 
         // GET: Categories/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public ActionResult Edit(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var category = await _context.Categories.FindAsync(id);
-            if (category == null)
-            {
-                return NotFound();
-            }
-            return View(category);
+            var category = new CategoryServices().ViewDetail(id);
+            return View();
         }
 
         // POST: Categories/Edit/5
@@ -85,68 +91,86 @@ namespace TodoListApp.WebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Status,CreatedDate,CreatedBy,UpdatedDate,UpdatedBy")] Category category)
+        public ActionResult Edit(Category category)
         {
-            if (id != category.ID)
+            try
             {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
+                // TODO: Add update logic here
+                if (ModelState.IsValid)
                 {
-                    _context.Update(category);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!CategoryExists(category.ID))
+                    var dao = new CategoryServices();
+                    var result = dao.Update(category);
+                    if (result)
                     {
-                        return NotFound();
+                        return RedirectToAction("Index", "Categories");
                     }
                     else
                     {
-                        throw;
+                        ModelState.AddModelError("", "Cập nhật thông tin không thành công");
                     }
                 }
+                return View("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        //// GET: Categories/Delete/5
+        //public async Task<IActionResult> Delete(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    var category = await _context.Categories
+        //        .FirstOrDefaultAsync(m => m.ID == id);
+        //    if (category == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    return View(category);
+        //}
+
+        //// POST: Categories/Delete/5
+        //[HttpPost, ActionName("Delete")]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> DeleteConfirmed(int id)
+        //{
+        //    var category = await _context.Categories.FindAsync(id);
+        //    _context.Categories.Remove(category);
+        //    await _context.SaveChangesAsync();
+        //    return RedirectToAction(nameof(Index));
+        //}
+
+        //private bool CategoryExists(int id)
+        //{
+        //    return _context.Categories.Any(e => e.ID == id);
+        //}
+        // GET: UsersController/Delete/5
+        public ActionResult Delete(int id)
+        {
+            new CategoryServices().Delete(id);
+            return RedirectToAction("Index", "Categories");
+            //return View();
+        }
+
+        // POST: UsersController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(Category collection)
+        {
+            try
+            {
                 return RedirectToAction(nameof(Index));
             }
-            return View(category);
-        }
-
-        // GET: Categories/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
+            catch
             {
-                return NotFound();
+                return View();
             }
-
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (category == null)
-            {
-                return NotFound();
-            }
-
-            return View(category);
-        }
-
-        // POST: Categories/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var category = await _context.Categories.FindAsync(id);
-            _context.Categories.Remove(category);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool CategoryExists(int id)
-        {
-            return _context.Categories.Any(e => e.ID == id);
         }
     }
 }

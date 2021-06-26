@@ -11,6 +11,13 @@ namespace TodoListApp.WebApp.Controllers
 {
     public class UsersController : Controller
     {
+        private readonly ToDoContext _context;
+
+        public UsersController(ToDoContext context)
+        {
+            _context = context;
+        }
+
         // GET: UsersController
         public ActionResult Index()
         {
@@ -73,39 +80,42 @@ namespace TodoListApp.WebApp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult AddOrEdit(User collection)
         {
-            try
-            {
-                // TODO: Add update logic here
-                if (ModelState.IsValid)
-                {
-                    var dao = new UserServices();
-                    //Create
-                    int id = dao.Insert(collection);
-                    if (id > 0)
-                    {
-                        return PartialView("_UserModelPartial", collection);
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("", "Thêm mới không thành công");
-                    }
-                    //Edit
-                    var result = dao.Update(collection);
-                    if (result)
-                    {
-                        return PartialView("_UserModelPartial", collection);
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("", "Cập nhật thông tin không thành công");
-                    }
-                }
-                return View("Index");
-            }
-            catch
-            {
-                return View();
-            }
+            _context.Users.Add(collection);
+            _context.SaveChanges();
+            return PartialView("_UserModelPartial", collection);
+            //try
+            //{
+            //    // TODO: Add update logic here
+            //    if (ModelState.IsValid)
+            //    {
+            //        var dao = new UserServices();
+            //        //Create
+            //        int id = dao.Insert(collection);
+            //        if (id > 0)
+            //        {
+            //            return PartialView("_UserModelPartial", collection);
+            //        }
+            //        else
+            //        {
+            //            ModelState.AddModelError("", "Thêm mới không thành công");
+            //        }
+            //        //Edit
+            //        var result = dao.Update(collection);
+            //        if (result)
+            //        {
+            //            return PartialView("_UserModelPartial", collection);
+            //        }
+            //        else
+            //        {
+            //            ModelState.AddModelError("", "Cập nhật thông tin không thành công");
+            //        }
+            //    }
+            //    return View("Index");
+            //}
+            //catch
+            //{
+            //    return View();
+            //}
         }
 
         // GET: UsersController/Edit/5

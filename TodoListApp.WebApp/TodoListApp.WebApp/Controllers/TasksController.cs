@@ -25,59 +25,67 @@ namespace TodoListApp.WebApp.Controllers
         }
 
         // GET: Tasks/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            //if (id == null)
+            //{
+            //    return NotFound();
+            //}
 
-            var task = await _context.Tasks
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (task == null)
-            {
-                return NotFound();
-            }
+            //var task = await _context.Tasks
+            //    .FirstOrDefaultAsync(m => m.ID == id);
+            //if (task == null)
+            //{
+            //    return NotFound();
+            //}
 
-            return View(task);
+            //return View(task);
+            var task = _context.Tasks.Where(x => x.ID == id).FirstOrDefault();
+            return PartialView("_DetailTaskPartial", task);
         }
 
         // GET: Tasks/Create
+        [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            var task = new DBModel.Task();
+            return PartialView("_TaskModelPartial", task);
         }
 
         // POST: Tasks/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Name,Status,Owner,CategoryID,IsCompleted,DueDate,OverDue,CreatedDate,CreatedBy,UpdatedDate,UpdatedBy")] DBModel.Task task)
+        //[ValidateAntiForgeryToken]
+        public IActionResult Create(DBModel.Task task)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(task);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                _context.Tasks.Add(task);
+                _context.SaveChanges();
+                return PartialView("_TaskModelPartial", task);
             }
             return View(task);
         }
 
         // GET: Tasks/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        [HttpGet]
+        public IActionResult Edit(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            //if (id == null)
+            //{
+            //    return NotFound();
+            //}
 
-            var task = await _context.Tasks.FindAsync(id);
-            if (task == null)
-            {
-                return NotFound();
-            }
-            return View(task);
+            //var task = await _context.Tasks.FindAsync(id);
+            //if (task == null)
+            //{
+            //    return NotFound();
+            //}
+            //return View(task);
+            var tasks = _context.Tasks.Where(x => x.ID == id).FirstOrDefault();
+            return PartialView("_EditTaskPartial", tasks);
+
         }
 
         // POST: Tasks/Edit/5
@@ -85,64 +93,65 @@ namespace TodoListApp.WebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Status,Owner,CategoryID,IsCompleted,DueDate,OverDue,CreatedDate,CreatedBy,UpdatedDate,UpdatedBy")] DBModel.Task task)
+        public IActionResult Edit(DBModel.Task task)
         {
-            if (id != task.ID)
-            {
-                return NotFound();
-            }
+            //if (id != task.ID)
+            //{
+            //    return NotFound();
+            //}
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(task);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!TaskExists(task.ID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(task);
+            //if (ModelState.IsValid)
+            //{
+            //    try
+            //    {
+            //        _context.Update(task);
+            //        await _context.SaveChangesAsync();
+            //    }
+            //    catch (DbUpdateConcurrencyException)
+            //    {
+            //        if (!TaskExists(task.ID))
+            //        {
+            //            return NotFound();
+            //        }
+            //        else
+            //        {
+            //            throw;
+            //        }
+            //    }
+            //    return RedirectToAction(nameof(Index));
+            //}
+            //return View(task);
+            _context.Tasks.Update(task);
+            _context.SaveChanges();
+            return PartialView("_EditTaskPartial", task);
         }
 
         // GET: Tasks/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        [HttpGet]
+        public IActionResult Delete(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var task = await _context.Tasks
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (task == null)
-            {
-                return NotFound();
-            }
-
-            return View(task);
+            var tasks = _context.Tasks.Where(x => x.ID == id).FirstOrDefault();
+            return PartialView("_DeleteTaskPartial", tasks);
+        }
+        [HttpPost]
+        public IActionResult Delete(DBModel.Task task)
+        {
+            var tasks = _context.Tasks.Where(x => x.ID == task.ID).FirstOrDefault();
+            _context.Tasks.Remove(tasks);
+            _context.SaveChanges();
+            return PartialView("_DeleteTaskPartial", tasks);
         }
 
         // POST: Tasks/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var task = await _context.Tasks.FindAsync(id);
-            _context.Tasks.Remove(task);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
+        //[HttpPost, ActionName("Delete")]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> DeleteConfirmed(int id)
+        //{
+        //    var task = await _context.Tasks.FindAsync(id);
+        //    _context.Tasks.Remove(task);
+        //    await _context.SaveChangesAsync();
+        //    return RedirectToAction(nameof(Index));
+        //}
 
         private bool TaskExists(int id)
         {

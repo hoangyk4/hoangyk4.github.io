@@ -159,3 +159,7 @@ D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Deb
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Categories\Edit.cshtml.g.cs
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Categories\Index.cshtml.g.cs
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Tasks\_TaskModelPartial.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Tasks\_EditTaskPartial.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Tasks\_DetailTaskPartial.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Tasks\_DeleteTaskPartial.cshtml.g.cs

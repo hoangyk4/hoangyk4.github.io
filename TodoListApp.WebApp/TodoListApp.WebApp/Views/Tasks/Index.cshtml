@@ -4,6 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
+<div id="PageTaskHere"></div>
 <!-- Page Heading -->
 <div class="page">
     <h2>Task</h2>
@@ -63,7 +64,7 @@
 <div class="row">
     <div class="col-xl-6"></div>
     <div class="col-xl-2"></div>
-    <div class="col-xl-2"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#editModal">Create Task</button></div>
+    <div class="col-xl-2"><button type="button" class="btn btn-info" data-toggle="tasksmodal" data-target="#editModal" data-url="@Url.Action("Create")" >Create Task</button></div>
     <div class="col-xl-2"><button type="button" class="btn btn-secondary">Export CSV</button></div>
 </div>
                 &ensp;
@@ -150,9 +151,9 @@
                         @Html.DisplayFor(modelItem => item.UpdatedBy)
                     </td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                        <button type="button" class="btn btn-link" data-toggle="tasksmodal" data-target="#editModal" data-url="@Url.Action($"Edit/{item.ID}")">Edit</button> |
+                        <button type="button" class="btn btn-link" data-toggle="tasksmodal" data-target="#editModal" data-url="@Url.Action($"Details/{item.ID}")">Details</button> |
+                        <button type="button" class="btn btn-link" data-toggle="tasksmodal" data-target="#editModal" data-url="@Url.Action($"Delete/{item.ID}")">Delete</button>
                     </td>
                 </tr>
             }

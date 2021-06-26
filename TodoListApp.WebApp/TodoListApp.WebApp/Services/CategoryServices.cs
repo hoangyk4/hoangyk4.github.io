@@ -13,10 +13,50 @@ namespace TodoListApp.WebApp.Services
         {
             context = new ToDoContext();
         }
-        public List<Category> GetAllUser()
+        public int Insert(Category entity)
         {
-            var rs = context.Categories.ToList();
-            return rs;
+            context.Categories.Add(entity);
+            context.SaveChanges();
+            return entity.ID;
+        }
+        public Category GetByID(string category)
+        {
+            return context.Categories.SingleOrDefault(x => x.Name == category);
+        }
+        public Category ViewDetail(int id)
+        {
+            return context.Categories.Find(id);
+        }
+        public bool Update(Category entity)
+        {
+            try
+            {
+                var category = context.Categories.Find(entity.ID);
+                category.Name = entity.Name;
+                category.Status = entity.Status;
+                category.UpdatedDate = entity.UpdatedDate;
+                category.UpdatedBy = entity.UpdatedBy;
+                context.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        public bool Delete(int id)
+        {
+            try
+            {
+                var category = context.Categories.Find(id);
+                context.Categories.Remove(category);
+                context.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }
