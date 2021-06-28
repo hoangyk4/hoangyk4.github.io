@@ -1,18 +1,17 @@
-﻿@model TodoListApp.WebApp.DBModel.Task
+﻿@model TodoListApp.WebApp.DBModel.Category
 
-<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="categoryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Bạn có chắc muốn xoá?</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">Detail Category</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <form action="/Tasks/Delete">
+                <form>
                     <div class="form-group">
-                        <input type="hidden" asp-for="@Model.ID" />
                         <label asp-for="ID" cla6ss="control-label">@Model.ID</label>
                     </div>
                     <div class="form-group">
@@ -20,21 +19,6 @@
                     </div>
                     <div class="form-group">
                         <label asp-for="Status" class="control-label">@Model.Status</label>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Owner" class="control-label">@Model.Owner</label>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="CategoryID" class="control-label">@Model.CategoryID</label>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="IsCompleted" class="control-label">@Model.IsCompleted</label>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="DueDate" class="control-label">@Model.DueDate</label>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="OverDue" class="control-label">@Model.OverDue</label>
                     </div>
                     <div class="form-group">
                         <label asp-for="CreatedDate" class="control-label">@Model.CreatedDate</label>
@@ -49,10 +33,6 @@
                         <label asp-for="UpdatedBy" class="control-label">@Model.UpdatedBy</label>
                     </div>
                 </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-save="modal">Xoá</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ bỏ</button>
             </div>
         </div>
     </div>

@@ -10,16 +10,16 @@
     <div class="col-xl-2">
         @*<a class="btn btn-primary btn-lg" asp-action="Create" asp-controller="Users">Tạo mới tài khoản</a>*@
         <button type="button" class="btn btn-primary btn-lg"
-                data-toggle="ajax-modal" data-target="#userModal" data-url="@Url.Action("AddOrEdit")">
-            Tạo mới/ Chỉnh sửa
+                data-toggle="ajax-modal" data-target="#userModal" data-url="@Url.Action("Create")">
+            Đăng Ký
         </button>
     </div>
-    <div class="col-xl-2">
+    @*<div class="col-xl-2">
         <a class="btn btn-secondary btn-lg" asp-action="Edit" asp-controller="Users">Chỉnh sửa tài khoản</a>
-    </div>
+    </div>*@
 </div>
 <hr>
-<div class="d-flex flex-row-reverse">
+@*<div class="d-flex flex-row-reverse">
     <ul class="pagination">
         <li class="page-item"><a class="page-link" href="#">Trước</a></li>
         <li class="page-item active"><a class="page-link" href="#">1</a></li>
@@ -29,7 +29,7 @@
         <li class="page-item"><a class="page-link" href="#">5</a></li>
         <li class="page-item"><a class="page-link" href="#">Sau</a></li>
     </ul>
-</div>
+</div>*@
 <!-- DataTales Example -->
 <div class="table-responsive">
     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -55,8 +55,9 @@
     <td>@item.Email</td>
     <td>@item.Phone</td>
     <td>
-        <button type="button" class="btn btn-link" data-toggle="ajax-modal" data-target="#userModal" data-url="@Url.Action("AddOrEdit")" asp-route-id="@item.ID">Edit</button> |
-        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#deleteModal">Delete</button>
+        <button type="button" class="btn btn-link" data-toggle="ajax-modal" data-target="#userModal" data-url="@Url.Action($"Edit/{item.ID}")">Edit</button> |
+        <button type="button" class="btn btn-link" data-toggle="ajax-modal" data-target="#userModal" data-url="@Url.Action($"Details/{item.ID}")">Details</button> |
+        <button type="button" class="btn btn-link" data-toggle="ajax-modal" data-target="#userModal" data-url="@Url.Action($"Delete/{item.ID}")">Delete</button>
     </td>
 </tr>
        }

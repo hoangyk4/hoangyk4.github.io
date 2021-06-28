@@ -6,7 +6,8 @@ $(function () {
     var indexTitle = $('#TilteHere');
     $('button[data-toggle="ajax-modal"]').click(function (event) {
         var url = $(this).data('url');
-        $.get(url).done(function (data) {
+        var decodedUrl = decodeURIComponent(url);
+        $.get(decodedUrl).done(function (data) {
             indexTitle.html(data);
             indexTitle.find('.modal').modal('show');
         })
@@ -37,6 +38,26 @@ $(function () {
         var sendData = form.serialize();
         $.post(actionUrl, sendData).done(function (data) {
             pagetask.find('.modal').modal('hide');
+        })
+    })
+
+})
+$(function () {
+    var categorypage = $('#CategoryHere');
+    $('button[data-toggle="categoryModal"]').click(function (event) {
+        var url = $(this).data('url');
+        var decodedUrl = decodeURIComponent(url);
+        $.get(decodedUrl).done(function (data) {
+            categorypage.html(data);
+            categorypage.find('.modal').modal('show');
+        })
+    })
+    categorypage.on('click', '[data-save="modal"]', function (event) {
+        var form = $(this).parents('.modal').find('form');
+        var actionUrl = form.attr('action');
+        var sendData = form.serialize();
+        $.post(actionUrl, sendData).done(function (data) {
+            categorypage.find('.modal').modal('hide');
         })
     })
 

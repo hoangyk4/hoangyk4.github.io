@@ -27,19 +27,6 @@ namespace TodoListApp.WebApp.Controllers
         // GET: Tasks/Details/5
         public IActionResult Details(int id)
         {
-            //if (id == null)
-            //{
-            //    return NotFound();
-            //}
-
-            //var task = await _context.Tasks
-            //    .FirstOrDefaultAsync(m => m.ID == id);
-            //if (task == null)
-            //{
-            //    return NotFound();
-            //}
-
-            //return View(task);
             var task = _context.Tasks.Where(x => x.ID == id).FirstOrDefault();
             return PartialView("_DetailTaskPartial", task);
         }
@@ -53,8 +40,6 @@ namespace TodoListApp.WebApp.Controllers
         }
 
         // POST: Tasks/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         //[ValidateAntiForgeryToken]
         public IActionResult Create(DBModel.Task task)
@@ -72,55 +57,16 @@ namespace TodoListApp.WebApp.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            //if (id == null)
-            //{
-            //    return NotFound();
-            //}
-
-            //var task = await _context.Tasks.FindAsync(id);
-            //if (task == null)
-            //{
-            //    return NotFound();
-            //}
-            //return View(task);
             var tasks = _context.Tasks.Where(x => x.ID == id).FirstOrDefault();
             return PartialView("_EditTaskPartial", tasks);
 
         }
 
         // POST: Tasks/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public IActionResult Edit(DBModel.Task task)
         {
-            //if (id != task.ID)
-            //{
-            //    return NotFound();
-            //}
-
-            //if (ModelState.IsValid)
-            //{
-            //    try
-            //    {
-            //        _context.Update(task);
-            //        await _context.SaveChangesAsync();
-            //    }
-            //    catch (DbUpdateConcurrencyException)
-            //    {
-            //        if (!TaskExists(task.ID))
-            //        {
-            //            return NotFound();
-            //        }
-            //        else
-            //        {
-            //            throw;
-            //        }
-            //    }
-            //    return RedirectToAction(nameof(Index));
-            //}
-            //return View(task);
             _context.Tasks.Update(task);
             _context.SaveChanges();
             return PartialView("_EditTaskPartial", task);
@@ -141,17 +87,6 @@ namespace TodoListApp.WebApp.Controllers
             _context.SaveChanges();
             return PartialView("_DeleteTaskPartial", tasks);
         }
-
-        // POST: Tasks/Delete/5
-        //[HttpPost, ActionName("Delete")]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> DeleteConfirmed(int id)
-        //{
-        //    var task = await _context.Tasks.FindAsync(id);
-        //    _context.Tasks.Remove(task);
-        //    await _context.SaveChangesAsync();
-        //    return RedirectToAction(nameof(Index));
-        //}
 
         private bool TaskExists(int id)
         {

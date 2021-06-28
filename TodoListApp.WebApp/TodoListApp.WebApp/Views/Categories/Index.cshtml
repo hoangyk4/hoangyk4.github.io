@@ -4,6 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
+<div id="CategoryHere"></div>
 <!-- Page Heading -->
 <div class="page">
     <h2>Categories</h2>
@@ -31,11 +32,11 @@
 <div class="row">
     <div class="col-xl-6"></div>
     <div class="col-xl-2"></div>
-    <div class="col-xl-2"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#editModal">Create Category</button></div>
+    <div class="col-xl-2"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#categoryModal" data-url="@Url.Action("Create")">Create Category</button></div>
     <div class="col-xl-2"><button type="button" class="btn btn-secondary">Export CSV</button></div>
 </div>
             &ensp;
-<div class="d-flex flex-row-reverse">
+@*<div class="d-flex flex-row-reverse">
     <ul class="pagination">
         <li class="page-item"><a class="page-link" href="#">Trước</a></li>
         <li class="page-item active"><a class="page-link" href="#">1</a></li>
@@ -45,7 +46,7 @@
         <li class="page-item"><a class="page-link" href="#">5</a></li>
         <li class="page-item"><a class="page-link" href="#">Sau</a></li>
     </ul>
-</div>
+</div>*@
 
 <!-- DataTales Example -->
 <div class="table-responsive">
@@ -88,9 +89,9 @@
                         @Html.DisplayFor(modelItem => item.CreatedBy)
                     </td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#categoryModal" data-url="@Url.Action($"Edit/{item.ID}")">Edit</button> |
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#categoryModal" data-url="@Url.Action($"Details/{item.ID}")">Details</button> |
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#categoryModal" data-url="@Url.Action($"Delete/{item.ID}")">Delete</button>
                     </td>
                 </tr>
             }

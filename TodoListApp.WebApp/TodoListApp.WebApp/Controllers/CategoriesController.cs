@@ -26,146 +26,74 @@ namespace TodoListApp.WebApp.Controllers
         }
 
         // GET: Categories/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (category == null)
-            {
-                return NotFound();
-            }
-
-            return View(category);
+            var category = _context.Categories.Where(x => x.ID == id).FirstOrDefault();
+            return PartialView("_DetailCategoryPartial", category);
         }
 
         // GET: Categories/Create
-        public ActionResult Create()
+        [HttpGet]
+        public IActionResult Create()
         {
-            return View();
+            var category = new DBModel.Category();
+            return PartialView("_CreateCategoryPartial", category);
         }
 
         // POST: Categories/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(Category category)
+        //[ValidateAntiForgeryToken]
+        public IActionResult Create(Category category)
         {
-            try
+            if (ModelState.IsValid)
             {
-                if (ModelState.IsValid)
-                {
-                    var dao = new CategoryServices();
-                    int id = dao.Insert(category);
-                    if (id > 0)
-                    {
-                        return RedirectToAction("Index", "Categories");
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("", "Thêm mới không thành công");
-                    }
-                }
-                return View("Index");
+                _context.Categories.Add(category);
+                _context.SaveChanges();
+                return PartialView("_CreateCategoryPartial", category);
             }
-            catch
-            {
-                return View();
-            }
+            return View(category);
         }
 
         // GET: Categories/Edit/5
-        public ActionResult Edit(int id)
+        [HttpGet]
+        public IActionResult Edit(int id)
         {
-            var category = new CategoryServices().ViewDetail(id);
-            return View();
+            var category = _context.Categories.Where(x => x.ID == id).FirstOrDefault();
+            return PartialView("_EditCategoryPartial", category);
         }
 
         // POST: Categories/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(Category category)
+        //[ValidateAntiForgeryToken]
+        public IActionResult Edit(Category category)
         {
-            try
+            if (ModelState.IsValid)
             {
-                // TODO: Add update logic here
-                if (ModelState.IsValid)
-                {
-                    var dao = new CategoryServices();
-                    var result = dao.Update(category);
-                    if (result)
-                    {
-                        return RedirectToAction("Index", "Categories");
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("", "Cập nhật thông tin không thành công");
-                    }
-                }
-                return View("Index");
+                _context.Categories.Update(category);
+                _context.SaveChanges();
+                return PartialView("_EditCategoryPartial", category);
             }
-            catch
-            {
-                return View();
-            }
+            return View(category);
         }
 
         //// GET: Categories/Delete/5
-        //public async Task<IActionResult> Delete(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var category = await _context.Categories
-        //        .FirstOrDefaultAsync(m => m.ID == id);
-        //    if (category == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(category);
-        //}
-
-        //// POST: Categories/Delete/5
-        //[HttpPost, ActionName("Delete")]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> DeleteConfirmed(int id)
-        //{
-        //    var category = await _context.Categories.FindAsync(id);
-        //    _context.Categories.Remove(category);
-        //    await _context.SaveChangesAsync();
-        //    return RedirectToAction(nameof(Index));
-        //}
-
-        //private bool CategoryExists(int id)
-        //{
-        //    return _context.Categories.Any(e => e.ID == id);
-        //}
-        // GET: UsersController/Delete/5
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
-            new CategoryServices().Delete(id);
-            return RedirectToAction("Index", "Categories");
-            //return View();
+            var category = _context.Categories.Where(x => x.ID == id).FirstOrDefault();
+            return PartialView("_DeleteCategoryPartial", category);
         }
 
-        // POST: UsersController/Delete/5
+        //// POST: Categories/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(Category collection)
+        public IActionResult Delete(Category collection)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var category = _context.Categories.Where(x => x.ID == collection.ID).FirstOrDefault();
+                _context.Categories.Remove(category);
+                _context.SaveChanges();
+                return PartialView("_DeleteCategoryPartial", category);
             }
             catch
             {
