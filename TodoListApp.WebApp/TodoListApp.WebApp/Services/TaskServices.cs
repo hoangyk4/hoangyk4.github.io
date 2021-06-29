@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using TodoListApp.WebApp.DBModel;
 
@@ -13,10 +14,11 @@ namespace TodoListApp.WebApp.Services
         {
             context = new ToDoContext();
         }
-        public List<DBModel.Task> GetAllUser()
+        public List<DBModel.Task> GetAll()
         {
             var rs = context.Tasks.ToList();
             return rs;
         }
+
     }
 }

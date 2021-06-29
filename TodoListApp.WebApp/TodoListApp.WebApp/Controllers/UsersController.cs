@@ -1,8 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ClosedXML.Excel;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using TodoListApp.WebApp.DBModel;
 using TodoListApp.WebApp.Services;
@@ -19,15 +23,13 @@ namespace TodoListApp.WebApp.Controllers
         }
 
         // GET: UsersController
-        public ActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var dao = new UserServices();
-            var model = dao.GetAllUser();
-            return View(model);
+            return View(await _context.Users.ToListAsync());
         }
 
         // GET: UsersController/Details/5
-        public ActionResult Details(int id)
+        public IActionResult Details(int id)
         {
             var user = _context.Users.Where(x => x.ID == id).FirstOrDefault();
             return PartialView("_DetailsUserPartial", user);
@@ -55,7 +57,7 @@ namespace TodoListApp.WebApp.Controllers
         }
 
         // GET: UsersController/Edit/5
-        public ActionResult Edit(int id)
+        public IActionResult Edit(int id)
         {
             var user = _context.Users.Where(x => x.ID == id).FirstOrDefault();
             return PartialView("_EditUserPartial", user);
@@ -77,7 +79,7 @@ namespace TodoListApp.WebApp.Controllers
         }
 
         // GET: UsersController/Delete/5
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
             var user = _context.Users.Where(x => x.ID == id).FirstOrDefault();
             return PartialView("_DeleteUserPartial", user);
@@ -86,7 +88,7 @@ namespace TodoListApp.WebApp.Controllers
         // POST: UsersController/Delete/5
         [HttpPost]
         //[ValidateAntiForgeryToken]
-        public ActionResult Delete(User user)
+        public IActionResult Delete(User user)
         {
             try
             {
@@ -100,5 +102,63 @@ namespace TodoListApp.WebApp.Controllers
                 return View();
             }
         }
+
+        // POST: UsersController/CSV
+        public IActionResult CSV()
+        {
+            var dao = new UserServices();
+            var model = dao.GetAllUser();
+            var builder = new StringBuilder();
+            builder.AppendLine("ID, UserName, Password, Name, Birth, Email, Phone, Note");
+            foreach(var user in model)
+            {
+                builder.AppendLine($"{user.ID},{user.UserName},{user.Password},{user.Name},{user.Birth},{user.Email},{user.Phone},{user.Note}");
+            }
+            return File(Encoding.UTF8.GetBytes(builder.ToString()), "text/csv", "users.csv");
+        }
+
+        // POST: UsersController/Excel
+        public IActionResult Excel()
+        {
+            using (var workbook = new XLWorkbook())
+            {
+                var dao = new UserServices();
+                var model = dao.GetAllUser();
+                var worksheet = workbook.Worksheets.Add("Users");
+                var currentRow = 1;
+                worksheet.Cell(currentRow, 1).Value = "ID";
+                worksheet.Cell(currentRow, 2).Value = "UserName";
+                worksheet.Cell(currentRow, 3).Value = "Password";
+                worksheet.Cell(currentRow, 4).Value = "Name";
+                worksheet.Cell(currentRow, 5).Value = "Birth";
+                worksheet.Cell(currentRow, 6).Value = "Email";
+                worksheet.Cell(currentRow, 7).Value = "Phone";
+                worksheet.Cell(currentRow, 8).Value = "Note";
+                foreach (var user in model)
+                {
+                    currentRow++;
+                    worksheet.Cell(currentRow, 1).Value = user.ID;
+                    worksheet.Cell(currentRow, 2).Value = user.UserName;
+                    worksheet.Cell(currentRow, 3).Value = user.Password;
+                    worksheet.Cell(currentRow, 4).Value = user.Name;
+                    worksheet.Cell(currentRow, 5).Value = user.Birth;
+                    worksheet.Cell(currentRow, 6).Value = user.Email;
+                    worksheet.Cell(currentRow, 7).Value = user.Phone;
+                    worksheet.Cell(currentRow, 8).Value = user.Note;
+                }
+
+                using (var stream = new MemoryStream())
+                {
+                    workbook.SaveAs(stream);
+                    var content = stream.ToArray();
+
+                    return File(
+                        content,
+                        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "users.xlsx");
+                }
+            }
+        }
+
     }
 }

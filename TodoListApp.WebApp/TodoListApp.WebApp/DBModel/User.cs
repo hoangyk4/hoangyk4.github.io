@@ -28,5 +28,6 @@ namespace TodoListApp.WebApp.DBModel
         [StringLength(200)]
         public string Phone { get; set; }
         public string Note { get; set; }
+
     }
 }

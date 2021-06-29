@@ -58,5 +58,10 @@ namespace TodoListApp.WebApp.Services
                 return false;
             }
         }
+        public List<Category> GetAll()
+        {
+            var rs = context.Categories.ToList();
+            return rs;
+        }
     }
 }

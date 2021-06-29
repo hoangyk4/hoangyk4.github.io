@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TodoListApp.WebApp.DBModel;
+using TodoListApp.WebApp.Services;
 
 namespace TodoListApp.WebApp.Controllers
 {
@@ -79,6 +81,8 @@ namespace TodoListApp.WebApp.Controllers
             var tasks = _context.Tasks.Where(x => x.ID == id).FirstOrDefault();
             return PartialView("_DeleteTaskPartial", tasks);
         }
+
+        // POST: Tasks/Delete/5
         [HttpPost]
         public IActionResult Delete(DBModel.Task task)
         {
@@ -91,6 +95,20 @@ namespace TodoListApp.WebApp.Controllers
         private bool TaskExists(int id)
         {
             return _context.Tasks.Any(e => e.ID == id);
+        }
+
+        // POST: Tasks/CSV
+        public IActionResult CSV()
+        {
+            var dao = new TaskServices();
+            var model = dao.GetAll();
+            var builder = new StringBuilder();
+            builder.AppendLine("ID, Name, Status, Owner, CategoryID, IsCompleted, DueDate, OverDue, CreatedDate, CreatedBy, UpdateDate, UpdateBy");
+            foreach (var task in model)
+            {
+                builder.AppendLine($"{task.ID},{task.Name},{task.Status},{task.Owner},{task.CategoryID},{task.IsCompleted},{task.DueDate},{task.OverDue},{task.CreatedDate},{task.CreatedBy},{task.UpdatedDate},{task.UpdatedBy}");
+            }
+            return File(Encoding.UTF8.GetBytes(builder.ToString()), "text/csv", "tasks.csv");
         }
     }
 }

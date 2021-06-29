@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -99,6 +100,20 @@ namespace TodoListApp.WebApp.Controllers
             {
                 return View();
             }
+        }
+
+        //// POST: Categories/CSV
+        public IActionResult CSV()
+        {
+            var dao = new CategoryServices();
+            var model = dao.GetAll();
+            var builder = new StringBuilder();
+            builder.AppendLine("ID, Name, Status, CreatedDate, CreatedBy, UpdateDate, UpdateBy");
+            foreach (var category in model)
+            {
+                builder.AppendLine($"{category.ID},{category.Name},{category.Status},{category.CreatedDate},{category.CreatedBy},{category.UpdatedDate},{category.UpdatedBy}");
+            }
+            return File(Encoding.UTF8.GetBytes(builder.ToString()), "text/csv", "categories.csv");
         }
     }
 }

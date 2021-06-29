@@ -1,4 +1,4 @@
-﻿@model List<TodoListApp.WebApp.DBModel.User>
+﻿@model IEnumerable<TodoListApp.WebApp.DBModel.User>
 
 @{ ViewData["Title"] = "Admin";
     Layout = "~/Views/Shared/_Layout.cshtml"; }
@@ -8,28 +8,29 @@
 <hr>
 <div class="row">
     <div class="col-xl-2">
-        @*<a class="btn btn-primary btn-lg" asp-action="Create" asp-controller="Users">Tạo mới tài khoản</a>*@
         <button type="button" class="btn btn-primary btn-lg"
                 data-toggle="ajax-modal" data-target="#userModal" data-url="@Url.Action("Create")">
             Đăng Ký
         </button>
     </div>
-    @*<div class="col-xl-2">
-        <a class="btn btn-secondary btn-lg" asp-action="Edit" asp-controller="Users">Chỉnh sửa tài khoản</a>
-    </div>*@
+    <div class="col-xl-2">
+        <form method="post" asp-controller="Users" asp-action="CSV">
+            <button type="submit" class="btn btn-secondary btn-lg">Export to CSV</button>
+        </form>
+    </div>
 </div>
 <hr>
 @*<div class="d-flex flex-row-reverse">
-    <ul class="pagination">
-        <li class="page-item"><a class="page-link" href="#">Trước</a></li>
-        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item"><a class="page-link" href="#">4</a></li>
-        <li class="page-item"><a class="page-link" href="#">5</a></li>
-        <li class="page-item"><a class="page-link" href="#">Sau</a></li>
-    </ul>
-</div>*@
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+        </ul>
+    </div>*@
 <!-- DataTales Example -->
 <div class="table-responsive">
     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -59,8 +60,7 @@
         <button type="button" class="btn btn-link" data-toggle="ajax-modal" data-target="#userModal" data-url="@Url.Action($"Details/{item.ID}")">Details</button> |
         <button type="button" class="btn btn-link" data-toggle="ajax-modal" data-target="#userModal" data-url="@Url.Action($"Delete/{item.ID}")">Delete</button>
     </td>
-</tr>
-       }
+</tr>}
 
         </tbody>
     </table>
