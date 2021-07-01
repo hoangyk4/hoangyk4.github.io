@@ -86,7 +86,7 @@ namespace TodoListApp.WebApp.Controllers
 
         //// POST: Categories/Delete/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public IActionResult Delete(Category collection)
         {
             try

@@ -160,3 +160,7 @@ D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Deb
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Users\_DeleteUserPartial.cshtml.g.cs
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Users\_DetailsUserPartial.cshtml.g.cs
 D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\obj\Debug\net5.0\Razor\Views\Users\_EditUserPartial.cshtml.g.cs
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ClosedXML.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\ExcelNumberFormat.dll
+D:\ProjectHoang\hoangyk4.github.io\TodoListApp.WebApp\TodoListApp.WebApp\bin\Debug\net5.0\System.IO.Packaging.dll
