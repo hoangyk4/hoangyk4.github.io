@@ -24,6 +24,7 @@ namespace TodoListApp.WebApp.DBModel
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().ToTable("Users");
+            modelBuilder.Entity<User>().HasKey(s => s.ID);
             modelBuilder.Entity<Task>().ToTable("Tasks");
             modelBuilder.Entity<Category>().ToTable("Categories");
             base.OnModelCreating(modelBuilder);

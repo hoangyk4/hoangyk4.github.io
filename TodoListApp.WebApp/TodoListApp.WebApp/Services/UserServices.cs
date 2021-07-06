@@ -80,7 +80,8 @@ namespace TodoListApp.WebApp.Services
         }
         public User ViewDetail(int id)
         {
-            return context.Users.Find(id);
+            var user = context.Users.Where(x => x.ID == id).FirstOrDefault();
+            return user;
         }
 
     }

@@ -20,8 +20,10 @@ namespace TodoListApp.WebApp.DBModel
         [StringLength(200)]
         public string Name { get; set; }
         public CategoryStatus? Status { get; set; }
+        [DataType(DataType.Date)]
         public DateTime? CreatedDate { get; set; }
         public int? CreatedBy { get; set; }
+        [DataType(DataType.Date)]
         public DateTime? UpdatedDate { get; set; }
         public int? UpdatedBy { get; set; }
     }

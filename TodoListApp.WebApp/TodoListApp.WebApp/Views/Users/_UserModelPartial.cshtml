@@ -11,12 +11,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="/Users/Create">
+                <form action="/Users/Create" class="needs-validation" novalidate>
                     <div class="form-group">
                         <div class="row">
                             <div class="col-md-4"><label asp-for="UserName" class="control-label">Tài khoản</label></div>
                             <div class="col-md-6"><input asp-for="UserName" class="form-control" /></div>
+                            <div class="invalid-feedback">
+                                Please choose a username.
                             <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -60,9 +63,10 @@
             </div>
 
             <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-save="modal">Đăng ký</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ bỏ</button>
+                <button type="submit" class="btn btn-primary" data-save="modal">Đăng ký</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ bỏ</button>
             </div>
+        </div>
     </div>
 </div>
 

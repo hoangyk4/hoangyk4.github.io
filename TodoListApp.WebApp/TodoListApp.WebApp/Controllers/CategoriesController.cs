@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TodoListApp.WebApp.DBModel;
+using TodoListApp.WebApp.Models;
 using TodoListApp.WebApp.Services;
 
 namespace TodoListApp.WebApp.Controllers
@@ -21,9 +22,9 @@ namespace TodoListApp.WebApp.Controllers
         }
 
         // GET: Categories
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pageNumber = 1)
         {
-            return View(await _context.Categories.ToListAsync());
+            return View(await PaginatedList<Category>.CreateAsync(_context.Categories, pageNumber, 5));
         }
 
         // GET: Categories/Details/5
