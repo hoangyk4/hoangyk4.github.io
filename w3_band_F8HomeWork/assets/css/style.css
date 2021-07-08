@@ -165,13 +165,14 @@ html{
 }
 #slider .text-content{
     width: 100%;
-    color: #fff;
+    color: #000;
     /* font-size: large; */
     position: absolute;
     bottom: 24px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 #slider .text-heading{
     font-weight: 500;
@@ -179,6 +180,7 @@ html{
 }
 #slider .text-description{
     font-size: 15px;
+    text-shadow: 0 0 1px #000;
 }
 /* #content{
   
