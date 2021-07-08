@@ -342,3 +342,6 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 /DAS.FileApi/wwwroot/2020/12/18
+
+# DataProtectionProvider to share cookies
+DAS.Web/Keys/
