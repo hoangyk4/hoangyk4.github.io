@@ -298,8 +298,8 @@ header{
     height: 100%;
     max-width: 100%;
     background-color: #14B9D5;
-    z-index: 1;
-    transform: translateX(100%);
+    z-index: 3;
+    transform: translateX(235%);
     transition: transform linear 0.2s;
     overflow-y:auto;
 }

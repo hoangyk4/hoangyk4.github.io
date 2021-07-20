@@ -67,11 +67,7 @@ html{
 .nav__input:checked ~ .nav__overlay{
     display: block;
 }
-.nav__input:checked ~ .nav__mobile{
-    display: block;
-    transform: translateX(30%);
 
-}
 @keyframes fadeIn{
     from{
         opacity: 0;
@@ -82,7 +78,194 @@ html{
 
 }
 /* Reponsive */
+@media(max-width: 1024px) and (min-width: 741px){
+    header .header{
+        height: var(--header-height);
+        background-color: var(--white-color);
+    }
 
+    .grid__col-2 .navbar-1,
+    .grid__col-2 .navbar-2{
+        display: none;
+    }
+    .header__slider{
+        width: 100%;
+        flex-direction: column;
+    }
+    .header__slider .navigation{
+        display: none;
+    }
+    .header__slider .menu-bar-icon{
+        margin-left: -55px;
+        margin-top: 16px;
+    }
+    .header__slider .menu-bar{
+        display: block;
+        margin-top: auto;
+    }
+    
+    .nav__input:checked ~ .nav__mobile{
+        display: block;
+        transform: translateX(200%);
+    
+    }
+    .grid__col-4,
+    .grid__row {
+        display: block;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .content__travel-section-phuket,
+    .content__travel-section-seyche,
+    .content__travel-section-hawai,
+    .content__travel-section-maldives,
+    .content__travel-section-bora,
+    .content__travel-section-samui,
+    .content__travel-section-content{
+        display: flex;
+        justify-content: center;
+        margin: 30px 20px 0 30px !important;
+    }
+    .content__travel-section-asia,
+    .content__travel-section-euro{
+        margin: 30px 20px 0 363px !important;
+    }
+    .content__agency-header{
+        width: 950px;
+        margin-left: -5px;
+        text-align: center;
+        justify-content: center;
+    }
+    .content__agency-mid{
+        width: 950px;
+        display: flex;
+        justify-content: center;
+    }
+    .content__agency-h1{
+        width: 950px;
+        margin-top: 65px;
+    }
+    .content__agency-content{
+        width: 500px;
+        margin-left: 234px;
+
+    }
+    .content__search-background-img{    
+        height: 900px !important;
+
+    }
+    .content__search-content{
+        background-color: transparent !important;
+    }
+    .content__search-content-footer,
+    .content__search-content-header{
+        flex-direction: column;
+        background-color: #fff;
+        width: 520px;
+        margin-left: 240px;
+    }
+    .grid__col-third-2,
+    .grid__col-2,
+    .grid__col-4,
+    .grid__col-3{
+        width: 950px !important;
+    }
+    .content__search_btn,
+    .content__search-text,
+    .content__search-dropdown{
+        width: 450px !important;
+        margin: 15px 0 10px 25px !important;
+    }
+    .content__news{
+        margin-top: 300px;
+    }
+    .content__search-content{
+        height: 0 !important;
+    }
+    .content__news-background{
+        height: 410px !important;
+    }
+    .content__news-section{
+        margin: 30px 0 !important;
+        width: 950px !important;
+    }
+    .content__news-header--proposal{
+        margin-top: 10px !important;
+    }
+    .content__news-header{
+        width: 950px !important;
+        height: 400px !important;
+    }
+    .content__quanlity-background-img{
+        height: 780px !important;
+    }
+    .content__shop-container{
+        margin-left: -22px;
+        margin-bottom: 22px;
+        width: 950px !important;
+    }
+    .footer__backgroud-img{
+        height: 1380px !important;
+        padding-left: 20px;
+    }
+    .footer__header_left{
+        margin-left: 0 !important;
+    }
+    .footer__header_left h2{
+        width: 950px !important;
+        padding: 0 330px;
+    }
+    .footer__header_left h3{
+        width: 950px !important;
+        padding: 0 414px;
+    }
+    .footer__header-right{
+        margin-right: 0 !important;
+        flex-direction: column;
+    }
+    .footer__header-email,
+    .footer__header-btn{
+        width: 100% !important;
+        margin: 10px 30px !important;
+    }
+    .footer__wrapper-title{
+        padding: 0px 16px !important;
+        margin-left: 10px !important;
+        width: 950px !important;
+    }
+    .footer__wrapper-icon-link{
+        margin: 0 0 0 -15px !important;
+    }
+    .footer__wrapper-header{
+        width: 950px !important;
+        margin: 30px 0 0 350px !important;
+    }
+    .footer__wrapper-list{
+        width: 950px !important;
+        margin-left: 320px !important;
+    }
+    .footer__footer{
+        padding: 1px;
+        height: 140px;
+    }
+    .footer__footer-right{
+        float: left !important;
+        width: 950px;
+
+    }
+    .content,
+    .slide__auto-left{
+        padding-left: 20px;
+    }
+    footer{
+        padding-left: 20px;
+    }
+    .footer__wrapper{
+        width: 950px !important;
+        margin-left: 27px;
+    }
+}
 @media(max-width: 740px){
     header .header{
         height: var(--header-height);
@@ -93,7 +276,9 @@ html{
     .grid__col-2 .navbar-2{
         display: none;
     }
-    
+    .slide__img{
+        width: 90% !important;
+    }
     
     .header__slider .navigation{
         display: none;
@@ -108,6 +293,10 @@ html{
     .header__slider .menu-bar{
         display: block;
         margin-top: auto;
+    }
+    .nav__input:checked ~ .nav__mobile{
+        display: block;
+        transform: translateX(10%);
     }
     .grid__col-4,
     .grid__row {
@@ -149,7 +338,7 @@ html{
     .content__search-content-header{
         flex-direction: column;
         background-color: #fff;
-        width: 370px;
+        width: 340px;
     }
     .grid__col-third-2,
     .grid__col-2,
@@ -188,7 +377,7 @@ html{
         margin-bottom: 22px;
     }
     .footer__backgroud-img{
-        height: 1000px !important;
+        height: 1380px !important;
         padding-left: 20px;
     }
     .footer__header_left{
@@ -235,6 +424,10 @@ html{
     }
     footer{
         padding-left: 20px;
+    }
+    .footer__wrapper{
+        width: 335px;
+        margin-left: 27px;
     }
 }
 
