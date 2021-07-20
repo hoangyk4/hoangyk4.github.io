@@ -1,0 +1,240 @@
+:root{
+    --primary-color: #0071a7;
+    --white-color: #fff;
+    --font-color: #14b9d5;
+    --text-color: #555;
+    
+    --header-height: 120px;
+    --navbar-height: 38px;
+    --header-with-menu-height: calc(var(--header-height) - var(--navbar-height));
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* Reponsive */
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.grid__col-2{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% / 2);
+}
+.grid__col-third-2{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc((100% / 2) / 3);
+}
+.grid__col-3{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% / 3);
+}
+.grid__col-4{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% / 4);
+}
+.nav__overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    animation: fadeIn linear 0.2s;
+    z-index: 2;
+}
+.nav__input:checked ~ .nav__overlay{
+    display: block;
+}
+.nav__input:checked ~ .nav__mobile{
+    display: block;
+    transform: translateX(30%);
+
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+/* Reponsive */
+
+@media(max-width: 740px){
+    header .header{
+        height: var(--header-height);
+        background-color: var(--white-color);
+    }
+
+    .grid__col-2 .navbar-1,
+    .grid__col-2 .navbar-2{
+        display: none;
+    }
+    
+    
+    .header__slider .navigation{
+        display: none;
+    }
+    .header__slider{
+        width: 100%;
+        flex-direction: column;
+    }
+    .header__slider .header__logo{
+        justify-content: center;
+    }
+    .header__slider .menu-bar{
+        display: block;
+        margin-top: auto;
+    }
+    .grid__col-4,
+    .grid__row {
+        display: block;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .content__travel-section-phuket,
+    .content__travel-section-seyche,
+    .content__travel-section-hawai,
+    .content__travel-section-maldives,
+    .content__travel-section-bora,
+    .content__travel-section-samui,
+    .content__travel-section-content,
+    .content__travel-section-asia,
+    .content__travel-section-euro{
+        width: 100%;
+    }
+    .content__agency-header{
+        width: 140px;
+        margin-left: 50px;
+    }
+    .content__agency-mid{
+        width: 260px;
+        display: flex;
+        justify-content: center;
+    }
+    .content__agency-content,
+    .content__agency-h1{
+        width: 240px;
+        margin-top: 65px;
+    }
+    .content__search-background-img{    
+        height: 900px !important;
+
+    }
+    .content__search-content-footer,
+    .content__search-content-header{
+        flex-direction: column;
+        background-color: #fff;
+        width: 370px;
+    }
+    .grid__col-third-2,
+    .grid__col-2,
+    .grid__col-4,
+    .grid__col-3,
+    .content__search-text,
+    .content__search-dropdown {
+        width: 340px;
+    }
+    .content__search_btn{
+        margin-bottom: 30px;
+    }
+    .content__news{
+        margin-top: 300px;
+    }
+    .content__search-content{
+        height: 0 !important;
+    }
+    .content__news-background{
+        height: 410px !important;
+    }
+    .content__news-section{
+        margin: 35px 0 !important;
+    }
+    .content__news-header--proposal{
+        margin-top: 10px !important;
+    }
+    .content__news-header{
+        height: 510px !important;
+    }
+    .content__quanlity-background-img{
+        height: 780px !important;
+    }
+    .content__shop-container{
+        margin-left: -22px;
+        margin-bottom: 22px;
+    }
+    .footer__backgroud-img{
+        height: 1000px !important;
+        padding-left: 20px;
+    }
+    .footer__header_left{
+        margin-left: 0 !important;
+    }
+    .footer__header_left h2{
+        width: 275px;
+    }
+    .footer__header-right{
+        margin-right: 0 !important;
+        flex-direction: column;
+    }
+    .footer__header-email,
+    .footer__header-btn{
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+    .footer__wrapper-title{
+        padding: 0px 16px !important;
+        margin-left: 10px !important;
+    }
+    .footer__wrapper-icon-link{
+        margin: 0 0 0 -15px !important;
+    }
+    .footer__wrapper-header{
+        width: 370px;
+        margin: 30px 0 0 80px !important;
+    }
+    .footer__wrapper-list{
+        margin-left: 50px !important;
+    }
+    .footer__footer{
+        padding: 1px;
+        height: 140px;
+    }
+    .footer__footer-right{
+        float: left !important;
+        width: 370px;
+
+    }
+    .content,
+    .slide__auto-left{
+        padding-left: 20px;
+    }
+    footer{
+        padding-left: 20px;
+    }
+}
+
