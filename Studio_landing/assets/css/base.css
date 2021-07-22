@@ -47,25 +47,3 @@ html{
     padding-right: 5px;
     width: calc(100% / 4);
 }
-
-/* Reponsive */
-@media(max-width: 1560px) and (min-width: 741px){
-    .header__top{
-        width: 1200px !important;
-    }
-    .grid{
-        width: 1200px !important;
-    }
-    .nav__menu{
-        width: 750px !important;
-    }
-    .nav__menu-item{
-        padding: 0 10px !important;
-    }
-    .nav__menu-item-link{
-        font-size: 1.2rem !important;
-    }
-}
-@media(max-width: 740px){
-
-}
