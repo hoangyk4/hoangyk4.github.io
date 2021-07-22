@@ -425,7 +425,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 490px;
 }
 .clients__wrapper-name{
     font-size: 1.2rem;
