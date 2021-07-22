@@ -98,11 +98,12 @@ header{
   
 /* Content Services */
 .content{
+    width: 1700px;
     width: 100%;
     margin: 70px 0;
 }
 .services{
-    width: 100%;
+    width: 1700px;
     padding: 0;
     height: 725px;
 }
@@ -234,6 +235,7 @@ header{
 /* locations */
 .locations{
     position: relative;
+    width: 1700px;
 }
 .locations_map{
     position: absolute;
@@ -285,6 +287,7 @@ header{
 .our_pro_services{
     position: relative;
     top: 660px;
+    width: 1700px;
 }
 
 .our_pro_services_name{
@@ -331,7 +334,8 @@ header{
 /* headshots_impotant */
 .headshots_impotant{
     position: relative;
-    top: 900px
+    top: 900px;
+    width: 1700px;
 }
 .headshots_impotant_header{
     font-size: 5rem;
@@ -533,7 +537,7 @@ header{
     width: 1920px;
 }
 .our_blog__grid{
-    width: 1200px;
+    width: 1700px;
     margin: 0 auto;
     max-width: 100%;
 }
