@@ -5,7 +5,7 @@ import html from '../core.js';
 function Header(){
     return html`
         <header class="header">
-            <h1>Todo List App</h1>
+            <h1>Quản lý công việc</h1>
             <input 
                 class="new-todo" 
                 placeholder="Bạn muốn làm gì?" 
