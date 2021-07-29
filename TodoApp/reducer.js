@@ -34,8 +34,6 @@ const actions ={
     },
     switchFilter(state, filter){
         state.filter = filter
-        storage.set(todos)
-
     },
     clearCompleted(state){
         state.todos = state.todos.filter(state.filters.active)
