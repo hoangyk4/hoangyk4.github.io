@@ -34,6 +34,22 @@ html{
     .flex-col-item{
         max-width: 100%;
     }
+    .top-trending{
+        display: none;
+    }
+    .categories__header-top h1 a{
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+    .categories__content-row{
+        flex-direction: column;
+    }
+    .content-body-card-top{
+        flex-direction: column !important;
+    }
+    .col-4, .col-8{
+        max-width: 100%;
+    }
 }
 @media (max-width: 767.98px) {
     .navbar-brand{
@@ -53,5 +69,45 @@ html{
     }
     .flex-col-item{
         max-width: 100%;
+    }
+    .top-trending{
+        display: none;
+    }
+    .categories__header-top h1 a{
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+    .category-navigation{
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .categories__content-row{
+        flex-direction: column;
+    }
+    .content-body-card-top{
+        flex-direction: column !important;
+    }
+    .col-4, .col-8{
+        max-width: 100%;
+    }
+    .list-unstyled>li>a{
+        font-size: 10px !important;
+    }
+    .content-header-card-top{
+        flex-direction: column !important;
+        background-color: transparent !important;
+
+    }
+    .content-header-card-body{
+        max-width: 100% !important;
+    }
+    .content-header-card-deck{
+        margin: 30px 0 !important;
+    }
+    .news__tag-list{
+        display: flex;
+    }
+    .post__header{
+        flex-direction: column;
     }
 }
