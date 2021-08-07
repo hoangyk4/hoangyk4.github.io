@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Breakfast</title>
+    <!-- Reset Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+      <div class="toolbar_wrapper">
+        <div class="w1200">
+          <ul class="toolbar_wrapper-list">
+            <li class="toolbar_wrapper-item">
+                <i class="toolbar_wrapper-icon fas fa-star"></i>
+                <a href="/vu-tru-o-nha-khong-la-ca.html" title="Vũ trụ Ở nhà không la cà">Vũ trụ Ở nhà không la cà</a>
+            </li>
+            <li class="toolbar_wrapper-item">
+              <i class="toolbar_wrapper-icon fas fa-star"></i>
+                <a href="/hello-genz.html" title="Đọc Chậm">Hello GenZ</a>
+            </li>
+            <li class="toolbar_wrapper-item">
+              <i class="toolbar_wrapper-icon fas fa-star"></i>
+                <a href="/nhom-chu-de/emagazine.chn" title="Magazine">eMagazine</a>
+            </li>
+          </ul>
+          <div class="toolbar_wrapper-search">
+              <input type="text" id="searchinput" placeholder="Tìm kiếm..."></input>
+              <a href="#" class="toolbar_wrapper-search-link">
+                <i class="toolbar_wrapper-search-icon fas fa-search"></i>
+              </a>
+          </div> 
+        </div>
+      </div>
+
+      <div class="header_wrapper">
+        <div class="header_wrapper-top">
+          <div class="w1200">
+            <a href="/" title="Tin tức, giải trí, xã hội" class="header_wrapper-top-logo-link">
+              <img src="./assets/img/cafesang_logo.PNG" alt="" class="header_wrapper-top-logo-img">
+            </a>
+
+            <div class="trending_wrapper">
+              <ul class="trending_wrapper-list">
+                <li class="trending_wrapper-item">
+                  <i class="trending_wrapper-icon fab fa-hotjar"></i>
+                </li>
+                <li class="trending_wrapper-item">
+                <a href="/dich-bung-phat-o-ha-noi.html" title="Dịch bùng phát ở Hà Nội">Dịch bùng phát ở Hà Nội</a>
+                </li>
+                <li class="trending_wrapper-item">
+                  <a href="/messi-roi-barca.html" title="Messi rời Barca">Messi rời Barca</a>
+                </li>
+                <li class="trending_wrapper-item">
+                  <a href="/tphcm-siet-chat-gian-cach-xa-hoi.html" title="TP.HCM siết chặt giãn cách xã hội">TP.HCM siết chặt giãn cách xã hội</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <nav class="navbar navbar-header">
+          <div class="w1200">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                  <i class="navbar-brand-icon fas fa-home"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Star</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">TV Show</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Cinema</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Musik</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Beauty & Fashion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Đời sống</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Xã hội</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Thế giới</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Sport</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Học đường</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Video</a>
+              </li>
+              <li class="nav-item dropdown-toggle-list">
+                <a class="nav-link" href="#">
+                  <i class="navbar-brand-icon fas fa-ellipsis-h"></i>
+                </a>
+                <!-- <div class="dropdown-menu-list">
+                  <div class="w1200">
+                    <ul class="dropdown-menu-item">
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-link" href="post.html">Chính trị</a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-link" href="#">Giao thông</a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-link" href="#">Môi trường</a>
+                      </li>
+                    </ul>
+                    <ul class="dropdown-menu-item">
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-link" href="post.html">Chính trị</a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-link" href="#">Giao thông</a>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-link" href="#">Môi trường</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div> -->
+                
+              </li>
+          </ul>
+        </div>
+      </nav>
+        
+    </header>
+
+    <div class="wrapper">
+      <div class="header_wrapper-navbar-top">
+        <div class="container">
+          <div class="header_wrapper-navbar">
+            <ul class="header_wrapper-navbar-list">
+              <li class="header_wrapper-navbar-item">
+                <a href="" class="header_wrapper-navbar-link active">Star</a>
+              </li>
+              <li class="header_wrapper-navbar-item">
+                <a href="" class="header_wrapper-navbar-link">Sao Việt</a>
+              </li>
+              <li class="header_wrapper-navbar-item">
+                <a href="#" class="header_wrapper-navbar-link">Hội bạn thân Showbiz</a>
+              </li>
+            </ul>
+            <ul class="header_wrapper-navbar-list">
+              <li class="header_wrapper-navbar-item">
+                <a href="#" class="header_wrapper-navbar-link">TV Show</a>
+              </li>
+              <li class="header_wrapper-navbar-item">
+                <a href="#" class="header_wrapper-navbar-link">Musik</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="underline_nav"></div>
+
+      <div class="container">
+        <!-- Wrapper Header -->
+        <div class="row col-flex-col">
+          <div class="col-8 flex-col-item">
+            <a href="post.html" class="wrapper_header-link">
+              <img src="./assets/img/sanfran.jpg" alt="sanfan" class="wrapper_header-img">
+            </a>
+            <h2 class="wrapper_header-title">
+              <a href="post.html" class="wrapper_header-title-link">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </a>
+            </h2>
+            <p class="wrapper_header-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum cum neque quis itaque quaerat quos accusantium quibusdam amet ut explicabo magnam voluptate quia, delectus voluptatem beatae praesentium quisquam nihil rem?
+            </p>
+          </div>
+          <div class="col-4 flex-col-item">
+            <div class="wrapper_header-right-top">
+              <a href="post.html" class="wrapper_header-link">
+                <img src="./assets/img/paris.jpg" alt="paris" class="wrapper_header-img">
+              </a>
+              <h2 class="wrapper_header-right-top-title">
+                <a href="#" class="wrapper_header-title-link">
+                  Ha Noi: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </a>
+              </h2>
+            </div>
+            <div class="wrapper_header-right-bot">
+              <a href="#" class="wrapper_header-link">
+                <img src="./assets/img/newyork.jpg" alt="paris" class="wrapper_header-img">
+              </a>
+              <h2 class="wrapper_header-right-top-title">
+                <a href="#" class="wrapper_header-title-link">
+                  HCM: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </a>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <span class="hot24hlabel">tiêu điểm tuần</span>
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+          <!--Controls-->
+          <div class="controls-top">
+            <a class="btn-floating btn-floating-left" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+            <a class="btn-floating btn-floating-right" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+          </div>
+          <!--/.Controls-->
+
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
+            
+          </ol>
+          <!--/.Indicators-->
+
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+              <div class="col-md-3" style="float:left">
+              <div class="card mb-2">
+                  <img class="card-img-top"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                  <img class="card-img-top"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                  <img class="card-img-top"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-3" style="float:left">
+              <div class="card mb-2">
+                  <img class="card-img-top"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!--/.First slide-->
+
+            <!--Second slide-->
+            <div class="carousel-item">
+              <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                  <img class="card-img-top"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                  <img class="card-img-top"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                  <img class="card-img-top"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-3" style="float:left">
+                <div class="card mb-2">
+                  <img class="card-img-top"
+                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="underline_divider"></div>
+        <div class="row">
+          <div class="col col-moblie">
+            <div class="categories__content-body">
+              <div class="col">
+                <div class="card content-body-card-top">
+                  <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+                  <div class="card-body content-body-card-body">
+                    <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+                    <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="categories__news-underline"></div>
+              
+              <div class="col">
+                <div class="card content-body-card-top">
+                  <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+                  <div class="card-body content-body-card-body">
+                    <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+                    <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="categories__news-underline"></div>
+              
+              <div class="col">
+                <div class="card content-body-card-top">
+                  <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+                  <div class="card-body content-body-card-body">
+                    <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+                    <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="categories__news-underline"></div>
+              
+              <div class="col">
+                <div class="card content-body-card-top">
+                  <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+                  <div class="card-body content-body-card-body">
+                    <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+                    <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="categories__news-underline"></div>
+              
+              <div class="col">
+                <div class="card content-body-card-top">
+                  <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+                  <div class="card-body content-body-card-body">
+                    <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+                    <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="categories__news-underline"></div>
+             
+              <div class="col">
+                <div class="card content-body-card-top">
+                  <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+                  <div class="card-body content-body-card-body">
+                    <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+                    <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="categories__news-underline"></div>
+
+              <div class="categories__news-footer">
+                <ul class="list-unstyled">           
+                  <li>
+                      <a class="disabled btn btn-light btn-block btn-lg" href="#">
+                          Trang trước
+                      </a>
+                  </li>
+                  <li>
+                      <a category-by-date="" class="btn btn-light btn-block btn-lg  ng-isolate-scope" href="#">
+                          Xem theo ngày
+                      </a>
+                  </li> 
+                  <li>
+                      <a class="btn btn-light btn-block btn-lg" href="#">
+                          Trang sau
+                      </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card card-left">
+            <div class="card_header">
+              <h2 class="card_header-title">
+                <a href="#" class="card_header-link">Ciné</a>
+              </h2>
+            </div>
+            <a href="">
+              <img class="card-img-top" src="./assets/img/bandmember.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="">Card title</a>
+              </h4>
+              <p class="card-text">
+                <a href="">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a>
+              </p>
+            </div>
+            <div class="card-footer">
+              <ul class="card-footer-list">
+                <li class="card-footer-item">
+                  <a href="#" class="card-footer-link">
+                    Tá hoả diện mạo NS Xuân Bắc giữa mùa dịch: Râu ria xồm xoàm già đi cả chục tuổi, netizen gọi tên &quot;Thế Chột&quot; vì quá giống!
+                  </a>
+                </li>
+                <li class="card-footer-item">
+                  <a href="#" class="card-footer-link">
+                    Khánh Vân vui vẻ so sánh Ali Hoàng Dương với tài tử Thái giết bạn gái bằng 20 nhát dao: Vô tình hay kém duyên?
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card card-right">
+            <div class="card_header">
+              <h2 class="card_header-title">
+                <a href="#" class="card_header-link">TV Show</a>
+              </h2>
+            </div>
+            <a href="">
+              <img class="card-img-top" src="./assets/img/bandmember.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="">Card title</a>
+              </h4>
+              <p class="card-text">
+                <a href="">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a>
+              </p>
+            </div>
+            <div class="card-footer">
+              <ul class="card-footer-list">
+                <li class="card-footer-item">
+                  <a href="#" class="card-footer-link">
+                    Tá hoả diện mạo NS Xuân Bắc giữa mùa dịch: Râu ria xồm xoàm già đi cả chục tuổi, netizen gọi tên &quot;Thế Chột&quot; vì quá giống!
+                  </a>
+                </li>
+                <li class="card-footer-item">
+                  <a href="#" class="card-footer-link">
+                    Khánh Vân vui vẻ so sánh Ali Hoàng Dương với tài tử Thái giết bạn gái bằng 20 nhát dao: Vô tình hay kém duyên?
+                  </a>
+                </li>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+       
+
+    <footer>
+      <div class="underline"></div>
+      <div class="container">
+        <div class="row col-flex-col">
+          <div class="col-4 flex-col-item">
+            <p class="footer_title">Trụ sở Hà Nội</p>
+            <p class="footer_desc">Số 12, Ngõ 484, Hà Huy Tập, Yên Viên, Gia Lâm, Hà Nội</p>
+          </div>
+        
+          <div class="col-4 flex-col-item">
+              <div class="footer_contact">
+                <label>Liên hệ quảng cáo:</label>
+                <a href="">0961971902</a>
+              </div>
+
+              <div class="footer_contact">
+                <label for="email">Email:</label>
+                <a href=""> hoangyk4@gmail.com</a>
+              </div>
+
+              <label class="footer_contact">Xem bản mobile</label>
+              <div class="footer_contact">
+                <a href="" class="footer__download-app-link">
+                    <img src="./assets/img/chplay.png" alt="Download GG" class="footer__download-app-link-icon footer__download-app-img">
+                </a>
+                <a href="" class="footer__download-app-link">
+                    <img src="./assets/img/ios.png" alt="Download Ios" class="footer__download-app-link-icon footer__download-app-img">
+                </a>
+              </div>
+              <div class="footer_contact">
+                <label>Theo dõi trên</label>
+                <a href="" class="footer__app-link">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="" class="footer__app-link">
+                  <i class="fab fa-google"></i>
+                </a>
+              </div>
+          </div>
+
+          <div class="col-4 flex-col-item">
+            <img src="./assets/img/news.PNG" alt="" style="width:160px">
+            <p class="footer_title">© Copyright 2007 - 2021 – CÔNG TY TNHH TAIWAN VIỆT NAM</p>
+            <p class="footer_desc">Phù Dực, Phù Đổng, Gia Lâm, Hà Nội.</p>
+            <p class="footer_desc">Giấy phép số .../GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 10 tháng 4 năm 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

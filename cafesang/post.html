@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Breakfast</title>
+    <!-- Reset Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+      <div class="toolbar_wrapper">
+        <div class="w1200">
+          <ul class="toolbar_wrapper-list">
+            <li class="toolbar_wrapper-item">
+                <i class="toolbar_wrapper-icon fas fa-star"></i>
+                <a href="/vu-tru-o-nha-khong-la-ca.html" title="Vũ trụ Ở nhà không la cà">Vũ trụ Ở nhà không la cà</a>
+            </li>
+            <li class="toolbar_wrapper-item">
+              <i class="toolbar_wrapper-icon fas fa-star"></i>
+                <a href="/hello-genz.html" title="Đọc Chậm">Hello GenZ</a>
+            </li>
+            <li class="toolbar_wrapper-item">
+              <i class="toolbar_wrapper-icon fas fa-star"></i>
+                <a href="/nhom-chu-de/emagazine.chn" title="Magazine">eMagazine</a>
+            </li>
+          </ul>
+          <div class="toolbar_wrapper-search">
+              <input type="text" id="searchinput" placeholder="Tìm kiếm..."></input>
+              <a href="#" class="toolbar_wrapper-search-link">
+                <i class="toolbar_wrapper-search-icon fas fa-search"></i>
+              </a>
+          </div> 
+        </div>
+      </div>
+
+      <div class="header_wrapper">
+        <div class="header_wrapper-top">
+          <div class="w1200">
+            <a href="index.html" title="Tin tức, giải trí, xã hội" class="header_wrapper-top-logo-link">
+              <img src="./assets/img/cafesang_logo.PNG" alt="" class="header_wrapper-top-logo-img">
+            </a>
+
+            <div class="trending_wrapper">
+              <ul class="trending_wrapper-list">
+                <li class="trending_wrapper-item">
+                  <i class="trending_wrapper-icon fab fa-hotjar"></i>
+                </li>
+                <li class="trending_wrapper-item">
+                <a href="/dich-bung-phat-o-ha-noi.html" title="Dịch bùng phát ở Hà Nội">Dịch bùng phát ở Hà Nội</a>
+                </li>
+                <li class="trending_wrapper-item">
+                  <a href="/messi-roi-barca.html" title="Messi rời Barca">Messi rời Barca</a>
+                </li>
+                <li class="trending_wrapper-item">
+                  <a href="/tphcm-siet-chat-gian-cach-xa-hoi.html" title="TP.HCM siết chặt giãn cách xã hội">TP.HCM siết chặt giãn cách xã hội</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <nav class="navbar navbar-header">
+          <div class="w1200">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                  <i class="navbar-brand-icon fas fa-home"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Star</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TV Show</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cinema</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Musik</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Beauty & Fashion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Đời sống</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Xã hội</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Thế giới</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sport</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Học đường</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Video</a>
+              </li>
+              <li class="nav-item dropdown-toggle-list">
+                <a class="nav-link" href="#">
+                  <i class="navbar-brand-icon fas fa-ellipsis-h"></i>
+                </a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+        
+    </header>
+
+    <div class="wrapper">
+      <div class="header_wrapper-navbar-top">
+        <div class="container">
+          <div class="header_wrapper-navbar">
+            <ul class="header_wrapper-navbar-list">
+              <li class="header_wrapper-navbar-item">
+                <a href="#" class="header_wrapper-navbar-link active">Star</a>
+              </li>
+              <li class="header_wrapper-navbar-item">
+                <a href="#" class="header_wrapper-navbar-link">Sao Việt</a>
+              </li>
+              <li class="header_wrapper-navbar-item">
+                <a href="#" class="header_wrapper-navbar-link">Hội bạn thân Showbiz</a>
+              </li>
+            </ul>
+            <ul class="header_wrapper-navbar-list">
+              <li class="header_wrapper-navbar-item">
+                <a href="#" class="header_wrapper-navbar-link">TV Show</a>
+              </li>
+              <li class="header_wrapper-navbar-item">
+                <a href="#" class="header_wrapper-navbar-link">Musik</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="underline_nav"></div>
+      <div class="container">
+      <div class="post__content">
+          <div class="post__content-header">
+              <h1>Thủ tướng nói về biện pháp đặc biệt được áp dụng để chống dịch</h1>
+              <span class="post__time">Thứ sáu, 30/07/2021 - 19:11</span>
+          </div>
+          <div class="post__content-body">
+              <div class="content__news-header">
+                  <h2> Thủ tướng Phạm Minh Chính nhấn mạnh, Quốc hội giao Chính phủ quyết định thực hiện những giải pháp cấp bách, chưa có luật để chống dịch. Phó Thủ tướng Vũ Đức Đam phân tích, cần có biện pháp đặc biệt.</h2>
+              </div>
+              <div class="content__news-body">
+                  <figure class="image align-center img-wrapper" contenteditable="false"><img title="Thủ tướng nói về biện pháp đặc biệt được áp dụng để chống dịch - 1" src="https://icdn.dantri.com.vn/thumb_w/660/2021/07/30/thu-tuong-hop-toan-quoc-1-1627646376943.jpg" alt="Thủ tướng nói về biện pháp đặc biệt được áp dụng để chống dịch - 1" data-width="2373" data-height="1577" data-original="https://icdn.dantri.com.vn/2021/07/30/thu-tuong-hop-toan-quoc-1-1627646376943.jpg" data-photo-id="1511178" class="pswp-img"><div class="image-instruction-background"></div><p style="font-size: 13px;font-family: Arial;" class="img-instruction">Nhấn để phóng to ảnh</p>
+                      <figcaption>
+                      <p>Thủ tướng chủ trì hội nghị toàn quốc về công tác chống dịch. Dự họp có Phó Thủ tướng Vũ Đức Đam, người vừa trở về sau chuyến đi kiểm tra việc chống dịch ở một loạt tỉnh thành phía Nam (Ảnh: VGP).</p>
+                      </figcaption>
+                  </figure>
+                  <p>Thủ tướng khái quát, Quốc hội đã cho phép Chính phủ, Thủ tướng Chính phủ áp dụng một số giải pháp cấp bách, biện pháp đặc biệt trong phòng, chống dịch. Để triển khai thực hiện các biện pháp cấp bách, đặc biệt một cách có hiệu quả, Thủ tướng nêu vấn đề, yêu cầu làm rõ, vì sao cùng một chính sách chung trên toàn quốc nhưng trong một xã thì có tổ, ấp, xóm, thôn làm tốt nhưng có tổ, ấp, xóm, thôn làm chưa tốt. Hiện tượng tương tự xảy ra ở cấp huyện, tỉnh, thành.</p>
+                  <p>Thủ tướng Phạm Minh Chính nói về nội dung này tại hội nghị trực tuyến ngày 30/7 của Chính phủ với 63 tỉnh, thành phố để thực hiện ngay các giải pháp cấp bách phòng, chống dịch <a href="/suc-khoe/dai-dich-covid-19.htm" data-auto-link-id="5fed3436b00b7a0012bca1d1">Covid-19</a> theo Nghị quyết kỳ họp thứ nhất, Quốc hội khóa XV.</p>
+                  <p>Lãnh đạo Chính phủ nêu rõ, Quốc hội tán thành để Chính phủ, Thủ tướng tiếp tục chủ động, linh hoạt áp dụng các biện pháp phòng, chống <a href="/suc-khoe/dai-dich-covid-19.htm" data-auto-link-id="5fed3b3fb00b7a0012bca1d9">dịch Covid-19</a> đã thực hiện trong thời gian qua. Quốc hội đồng thời giao Chính phủ, Thủ tướng quyết định và chịu trách nhiệm về việc thực hiện một số giải pháp cấp bách, quyết định và tổ chức thực hiện các biện pháp chưa được luật quy định hoặc khác với quy định trong các luật, pháp lệnh hiện hành, áp dụng cơ chế đặc biệt, đặc thù, đặc cách để đáp ứng yêu cầu cấp bách của công tác phòng, chống dịch…</p>
+                  <p>Vừa trở về sau chuyến công tác dài ngày chống dịch tại TPHCM và các tỉnh phía Nam, Phó Thủ tướng Vũ Đức Đam cho biết dịch bệnh sẽ còn căng thẳng cho đến khi đạt được miễn dịch cộng đồng bằng vắc xin hoặc có thuốc đặc trị. Vì vậy, các địa phương phải rất cảnh giác, luôn luôn trong tình trạng có dịch.</p>
+                  <p>Nhấn mạnh công tác xét nghiệm phải có trọng tâm, trọng điểm bảo đảm hiệu quả và tiết kiệm, Phó Thủ tướng Vũ Đức Đam nêu thực tế gần đây một số địa phương bắt đầu có xu hướng xét nghiệm quá thoải mái, trong khi Bộ Y tế đã hướng dẫn xét nghiệm nhanh cũng có thể làm mẫu gộp, tiết kiệm được chi phí và nguồn lực.</p>
+                  <p>Do dịch đã nhiễm rất rộng, ngấm rất sâu ở khu vực TPHCM, nên Phó Thủ tướng Vũ Đức Đam cho rằng cần có những biện pháp đặc biệt...</p>
+                  <p>&nbsp;<strong>Cách ly xã hội thì phải hỗ trợ người dân nhu yếu phẩm&nbsp;</strong></p>
+                  <figure class="image align-center img-wrapper" contenteditable="false"><img title="Thủ tướng nói về biện pháp đặc biệt được áp dụng để chống dịch - 2" src="https://icdn.dantri.com.vn/thumb_w/660/2021/07/30/thu-tuong-hop-toan-quoc-3-1627646376818.jpg" alt="Thủ tướng nói về biện pháp đặc biệt được áp dụng để chống dịch - 2" data-width="1239" data-height="855" data-original="https://icdn.dantri.com.vn/2021/07/30/thu-tuong-hop-toan-quoc-3-1627646376818.jpg" data-photo-id="1511177" class="pswp-img"><div class="image-instruction-background"></div><p style="font-size: 13px;font-family: Arial;" class="img-instruction">Nhấn để phóng to ảnh</p>
+                      <figcaption>
+                      <p>Thủ tướng: "Thực hiện cách ly, nghiêm túc, chặt chẽ nhưng phải đáp ứng yêu cầu hỗ trợ tối đa người dân về lương thực, thực phẩm, các nhu yếu phẩm".</p>
+                      </figcaption>
+                  </figure>
+                  <p>Thủ tướng khái quát, Quốc hội đã cho phép Chính phủ, Thủ tướng Chính phủ áp dụng một số giải pháp cấp bách, biện pháp đặc biệt trong phòng, chống dịch. Để triển khai thực hiện các biện pháp cấp bách, đặc biệt một cách có hiệu quả, Thủ tướng nêu vấn đề, yêu cầu làm rõ, vì sao cùng một chính sách chung trên toàn quốc nhưng trong một xã thì có tổ, ấp, xóm, thôn làm tốt nhưng có tổ, ấp, xóm, thôn làm chưa tốt. Hiện tượng tương tự xảy ra ở cấp huyện, tỉnh, thành.</p>
+                  <p>Thủ tướng Phạm Minh Chính nói về nội dung này tại hội nghị trực tuyến ngày 30/7 của Chính phủ với 63 tỉnh, thành phố để thực hiện ngay các giải pháp cấp bách phòng, chống dịch <a href="/suc-khoe/dai-dich-covid-19.htm" data-auto-link-id="5fed3436b00b7a0012bca1d1">Covid-19</a> theo Nghị quyết kỳ họp thứ nhất, Quốc hội khóa XV.</p>
+                  <p>Lãnh đạo Chính phủ nêu rõ, Quốc hội tán thành để Chính phủ, Thủ tướng tiếp tục chủ động, linh hoạt áp dụng các biện pháp phòng, chống <a href="/suc-khoe/dai-dich-covid-19.htm" data-auto-link-id="5fed3b3fb00b7a0012bca1d9">dịch Covid-19</a> đã thực hiện trong thời gian qua. Quốc hội đồng thời giao Chính phủ, Thủ tướng quyết định và chịu trách nhiệm về việc thực hiện một số giải pháp cấp bách, quyết định và tổ chức thực hiện các biện pháp chưa được luật quy định hoặc khác với quy định trong các luật, pháp lệnh hiện hành, áp dụng cơ chế đặc biệt, đặc thù, đặc cách để đáp ứng yêu cầu cấp bách của công tác phòng, chống dịch…</p>
+                  <p style="text-align:right"><strong>Thái Anh</strong></p>
+              </div>
+              <div class="content__news-footer">
+                  <section>
+                      <header class="news-footer__header">
+                              <div class="news-footer__title">Tin liên quan</div>
+                      </header>
+                      <div class="news-footer__body">
+                          <ul class="news-footer__list">
+                              <li>
+                                  <h3 class="news-footer__link">
+                                      <a data-utm="Article|Box_TinLienQuan|1" title="TPHCM và các tỉnh phía Nam: Thời gian dập dịch phải kéo dài bằng tháng" href="/xa-hoi/tphcm-va-cac-tinh-phia-nam-thoi-gian-dap-dich-phai-keo-dai-bang-thang-20210728221804042.htm#dt_source=Article&amp;dt_campaign=Box_TinLienQuan&amp;dt_medium=1">TPHCM và các tỉnh phía Nam: Thời gian dập dịch phải kéo dài bằng tháng</a>
+                                  </h3>
+                              </li>
+                              <li>
+                                  <h3 class="news-footer__link">
+                                      <a data-utm="Article|Box_TinLienQuan|2" title="Quốc hội tăng quyền cho Chính phủ để chống dịch trong tình trạng khẩn cấp" href="/xa-hoi/quoc-hoi-tang-quyen-cho-chinh-phu-de-chong-dich-trong-tinh-trang-khan-cap-20210728165200305.htm#dt_source=Article&amp;dt_campaign=Box_TinLienQuan&amp;dt_medium=2">Quốc hội tăng quyền cho Chính phủ để chống dịch trong tình trạng khẩn cấp</a>
+                                  </h3>
+                              </li>
+                          </ul>
+                      </div>
+                  </section>
+
+                  <div class="news__tags"> 
+                      <div class="news__tag-label">Từ khóa:</div>
+                      <ul class="news__tag-list">
+                          <li>
+                              <h4 class="news__tag">
+                                  <a data-utm="Tag_ThuTuongPhamMinhChinh|Box_Tag|1" title="Thủ tướng Phạm Minh Chính " href="/thu-tuong-pham-minh-chinh.tag#dt_source=Tag_ThuTuongPhamMinhChinh&amp;dt_campaign=Box_Tag&amp;dt_medium=1">Thủ tướng Phạm Minh Chính </a>
+                              </h4>
+                          </li>
+                          <li>
+                              <h4 class="news__tag">
+                                  <a data-utm="Tag_BienPhapDacBietChongDich|Box_Tag|2" title="biện pháp đặc biệt chống dịch " href="/bien-phap-dac-biet-chong-dich.tag#dt_source=Tag_BienPhapDacBietChongDich&amp;dt_campaign=Box_Tag&amp;dt_medium=2">biện pháp đặc biệt chống dịch </a>
+                              </h4>
+                          </li>
+                          <li>
+                              <h4 class="news__tag">
+                                  <a data-utm="Tag_QuocHoiGiaoQuyenChinhPhu|Box_Tag|3" title="quốc hội giao quyền Chính phủ " href="/quoc-hoi-giao-quyen-chinh-phu.tag#dt_source=Tag_QuocHoiGiaoQuyenChinhPhu&amp;dt_campaign=Box_Tag&amp;dt_medium=3">quốc hội giao quyền Chính phủ </a>
+                              </h4>
+                          </li>
+                          <li>
+                              <h4 class="news__tag">
+                                  <a data-utm="Tag_NghiQuyetVeChongDich|Box_Tag|4" title="nghị quyết về chống dịch" href="/nghi-quyet-ve-chong-dich.tag#dt_source=Tag_NghiQuyetVeChongDich&amp;dt_campaign=Box_Tag&amp;dt_medium=4">nghị quyết về chống dịch</a>
+                              </h4>
+                          </li>
+                      </ul> 
+                  </div>
+              </div>
+          </div>
+      </div>
+        <div class="underline_divider"></div>
+        
+        
+        <div class="card-deck">
+          <div class="card card-left">
+            <div class="card_header">
+              <h2 class="card_header-title">
+                <a href="#" class="card_header-link">Sports</a>
+              </h2>
+            </div>
+            <a href="">
+              <img class="card-img-top" src="./assets/img/bandmember.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="">Card title</a>
+              </h4>
+              <p class="card-text">
+                <a href="">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a>
+              </p>
+            </div>
+            <div class="card-footer">
+              <ul class="card-footer-list">
+                <li class="card-footer-item">
+                  <a href="#" class="card-footer-link">
+                    Tá hoả diện mạo NS Xuân Bắc giữa mùa dịch: Râu ria xồm xoàm già đi cả chục tuổi, netizen gọi tên &quot;Thế Chột&quot; vì quá giống!
+                  </a>
+                </li>
+                <li class="card-footer-item">
+                  <a href="#" class="card-footer-link">
+                    Khánh Vân vui vẻ so sánh Ali Hoàng Dương với tài tử Thái giết bạn gái bằng 20 nhát dao: Vô tình hay kém duyên?
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card card-right">
+            <div class="card_header">
+              <h2 class="card_header-title">
+                <a href="#" class="card_header-link">Học đường</a>
+              </h2>
+            </div>
+            <a href="">
+              <img class="card-img-top" src="./assets/img/bandmember.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="">Card title</a>
+              </h4>
+              <p class="card-text">
+                <a href="">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a>
+              </p>
+            </div>
+            <div class="card-footer">
+              <ul class="card-footer-list">
+                <li class="card-footer-item">
+                  <a href="#" class="card-footer-link">
+                    Tá hoả diện mạo NS Xuân Bắc giữa mùa dịch: Râu ria xồm xoàm già đi cả chục tuổi, netizen gọi tên &quot;Thế Chột&quot; vì quá giống!
+                  </a>
+                </li>
+                <li class="card-footer-item">
+                  <a href="#" class="card-footer-link">
+                    Khánh Vân vui vẻ so sánh Ali Hoàng Dương với tài tử Thái giết bạn gái bằng 20 nhát dao: Vô tình hay kém duyên?
+                  </a>
+                </li>
+            </div>
+          </div>
+        </div>
+        <div class="underline_divider"></div>
+
+        <div class="card_header">
+          <h2 class="card_header-title">
+            <a href="#" class="card_header-link">Tin nổi bật</a>
+          </h2>
+        </div>
+        <div class="col">
+          <div class="card content-body-card-top">
+            <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+            <div class="card-body content-body-card-body">
+              <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+              <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="categories__news-underline"></div>
+        <div class="col">
+          <div class="card content-body-card-top">
+            <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+            <div class="card-body content-body-card-body">
+              <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+              <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="categories__news-underline"></div>
+        <div class="col">
+          <div class="card content-body-card-top">
+            <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+            <div class="card-body content-body-card-body">
+              <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+              <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="categories__news-underline"></div>
+        <div class="col">
+          <div class="card content-body-card-top">
+            <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+            <div class="card-body content-body-card-body">
+              <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+              <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="categories__news-underline"></div>
+        <div class="col">
+          <div class="card content-body-card-top">
+            <img class="card-img-top card-img-top-categories" src="./assets/img/sanfran.jpg" alt="Card image cap">
+            <div class="card-body content-body-card-body">
+              <h2 class="card-title"><a class="content-body-card-body-title" href="#">Card title</a></h2>
+              <p class="card-text content-body-card-body-text"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maiores asperiores nostrum ipsum magnam placeat impedit, aut, quos omnis minima tempora deserunt repellat est in minus deleniti nemo quidem adipisci.</a></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="categories__news-underline"></div>
+      </div>
+    </div>
+       
+
+    <footer>
+      <div class="underline"></div>
+      <div class="container">
+        <div class="row col-flex-col">
+          <div class="col-4 flex-col-item">
+            <p class="footer_title">Trụ sở Hà Nội</p>
+            <p class="footer_desc">Số 12, Ngõ 484, Hà Huy Tập, Yên Viên, Gia Lâm, Hà Nội</p>
+          </div>
+        
+          <div class="col-4 flex-col-item">
+              <div class="footer_contact">
+                <label>Liên hệ quảng cáo:</label>
+                <a href="">0961971902</a>
+              </div>
+
+              <div class="footer_contact">
+                <label for="email">Email:</label>
+                <a href=""> hoangyk4@gmail.com</a>
+              </div>
+
+              <label class="footer_contact">Xem bản mobile</label>
+              <div class="footer_contact">
+                <a href="" class="footer__download-app-link">
+                    <img src="./assets/img/chplay.png" alt="Download GG" class="footer__download-app-link-icon footer__download-app-img">
+                </a>
+                <a href="" class="footer__download-app-link">
+                    <img src="./assets/img/ios.png" alt="Download Ios" class="footer__download-app-link-icon footer__download-app-img">
+                </a>
+              </div>
+              <div class="footer_contact">
+                <label>Theo dõi trên</label>
+                <a href="" class="footer__app-link">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="" class="footer__app-link">
+                  <i class="fab fa-google"></i>
+                </a>
+              </div>
+          </div>
+
+          <div class="col-4 flex-col-item">
+            <img src="./assets/img/news.PNG" alt="" style="width:160px">
+            <p class="footer_title">© Copyright 2007 - 2021 – CÔNG TY TNHH TAIWAN VIỆT NAM</p>
+            <p class="footer_desc">Phù Dực, Phù Đổng, Gia Lâm, Hà Nội.</p>
+            <p class="footer_desc">Giấy phép số .../GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 10 tháng 4 năm 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
