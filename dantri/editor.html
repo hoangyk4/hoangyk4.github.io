@@ -9,210 +9,403 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
 
     <!-- Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-light justify-content-between" style="background-color: #fff;">
-            <a class="navbar-brand" href="index.html">
-                <img src="./assets/img/news.PNG" alt="Dantri" style="width: 200px; height: 50px;">
-            </a>
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </nav>
+  <header>
+    <nav class="navbar navbar-light justify-content-between" style="background-color: #fff;">
+        <a class="navbar-brand" href="index.html">
+            <img src="./assets/img/news.PNG" alt="Dantri" style="width: 200px; height: 50px;">
+        </a>
+        <form class="form-inline mobile-none">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+      <form class="form-inline menu-bar">
+        <label for="nav-mobile-input" class="menu-bar navbar-toggler" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+          <i class="menu-bar-icon fas fa-bars"></i>
+        </label>
+      </form>
 
-          <div class="nav-menu">
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">
-                    <i class="fas fa-home" style="font-size: 1.4rem;"></i>
-                  </a>
+      <div class="nav-menu mobile-none">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="fas fa-home" style="font-size: 1.4rem;"></i>
+              </a>
+            </li>
+            <li class="nav-item dropdown-toggle-xahoi">
+              <a class="nav-link" href="categories.html">Xã hội</a>
+              <ul class="dropdown-menu-xahoi">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="post.html">Chính trị</a>
                 </li>
-                <li class="nav-item dropdown-toggle-xahoi">
-                  <a class="nav-link" href="categories.html">Xã hội</a>
-                  <ul class="dropdown-menu-xahoi">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="post.html">Chính trị</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Giao thông</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Môi trường</a>
-                    </li>
-                  </ul>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Giao thông</a>
                 </li>
-                <li class="nav-item dropdown-toggle-thegioi">
-                  <a class="nav-link" href="categories.html">Thế giới</a>
-                  <ul class="dropdown-menu-thegioi">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="post.html">Châu Á</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Eu & Nga</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Châu Mỹ</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Hồ sơ & Phân tích</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Kiều bào</a>
-                    </li>
-                  </ul>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Môi trường</a>
                 </li>
-                <li class="nav-item dropdown-toggle-kinhte">
-                  <a class="nav-link" href="post.html">Kinh tế</a>
-                  <ul class="dropdown-menu-kinhte">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="post.html">Tài chính</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Doanh nghiệp</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Chứng khoán</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Khởi nghiệp</a>
-                    </li>
-                  </ul>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-thegioi">
+              <a class="nav-link" href="categories.html">Thế giới</a>
+              <ul class="dropdown-menu-thegioi">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="post.html">Châu Á</a>
                 </li>
-                <li class="nav-item dropdown-toggle-vanhoa">
-                  <a class="nav-link" href="categories.html">Văn hoá</a>
-                  <ul class="dropdown-menu-vanhoa">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="post.html">Điện ảnh</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Âm nhạc</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Văn học</a>
-                    </li>
-                  </ul>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Eu & Nga</a>
                 </li>
-                <li class="nav-item dropdown-toggle-phapluat">
-                  <a class="nav-link" href="categories.html">Pháp luật</a>
-                  <ul class="dropdown-menu-phapluat">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="post.html">Hồ sơ vụ án</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Pháp đình</a>
-                    </li>
-                  </ul>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Châu Mỹ</a>
                 </li>
-                <li class="nav-item dropdown-toggle-thethao">
-                  <a class="nav-link" href="categories.html">Thể thao</a>
-                  <ul class="dropdown-menu-thethao">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Bóng đá</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Tenis</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Golf</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Võ thuật</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Hậu trường</a>
-                    </li>
-                  </ul>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Hồ sơ & Phân tích</a>
                 </li>
-                <li class="nav-item dropdown-toggle-giaitri">
-                  <a class="nav-link" href="categories.html">Giải trí</a>
-                  <ul class="dropdown-menu-giaitri">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Hậu trường</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Thời trang</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">TV show</a>
-                    </li>
-                  </ul>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Kiều bào</a>
                 </li>
-                <li class="nav-item dropdown-toggle-giaoduc">
-                  <a class="nav-link" href="categories.html">Giáo dục</a>
-                  <ul class="dropdown-menu-giaoduc">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Góc phụ huynh</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Khuyến học</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Du học</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Tuyển sinh</a>
-                    </li>
-                  </ul>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-kinhte">
+              <a class="nav-link" href="post.html">Kinh tế</a>
+              <ul class="dropdown-menu-kinhte">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="post.html">Tài chính</a>
                 </li>
-                <li class="nav-item dropdown-toggle-dulich">
-                  <a class="nav-link" href="categories.html">Du lịch</a>
-                  <ul class="dropdown-menu-dulich">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Việt Nam</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Quốc tế</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Blogger</a>
-                    </li>
-                  </ul>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Doanh nghiệp</a>
                 </li>
-                <li class="nav-item dropdown-toggle-suckhoe">
-                  <a class="nav-link" href="categories.html">Sức khoẻ</a>
-                  <ul class="dropdown-menu-suckhoe">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Tư vấn</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Khoẻ đẹp</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Kiến thức giới tính</a>
-                    </li>
-                  </ul>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Chứng khoán</a>
                 </li>
-                <li class="nav-item dropdown-toggle-khoahoc">
-                  <a class="nav-link" href="categories.html">Khoa học</a>
-                  <ul class="dropdown-menu-khoahoc">
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Vũ trụ</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Thế giới tự nhiên</a>
-                    </li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-link" href="#">Khám phá</a>
-                    </li>
-                  </ul>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Khởi nghiệp</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Đời sống</a>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-vanhoa">
+              <a class="nav-link" href="categories.html">Văn hoá</a>
+              <ul class="dropdown-menu-vanhoa">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="post.html">Điện ảnh</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Việc làm</a>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Âm nhạc</a>
                 </li>
-            </ul>
-          </div>
-    </header>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Văn học</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-phapluat">
+              <a class="nav-link" href="categories.html">Pháp luật</a>
+              <ul class="dropdown-menu-phapluat">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="post.html">Hồ sơ vụ án</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Pháp đình</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-thethao">
+              <a class="nav-link" href="categories.html">Thể thao</a>
+              <ul class="dropdown-menu-thethao">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Bóng đá</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Tenis</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Golf</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Võ thuật</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Hậu trường</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-giaitri">
+              <a class="nav-link" href="categories.html">Giải trí</a>
+              <ul class="dropdown-menu-giaitri">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Hậu trường</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Thời trang</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">TV show</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-giaoduc">
+              <a class="nav-link" href="categories.html">Giáo dục</a>
+              <ul class="dropdown-menu-giaoduc">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Góc phụ huynh</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Khuyến học</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Du học</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Tuyển sinh</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-dulich">
+              <a class="nav-link" href="categories.html">Du lịch</a>
+              <ul class="dropdown-menu-dulich">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Việt Nam</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Quốc tế</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Blogger</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-suckhoe">
+              <a class="nav-link" href="categories.html">Sức khoẻ</a>
+              <ul class="dropdown-menu-suckhoe">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Tư vấn</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Khoẻ đẹp</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Kiến thức giới tính</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-khoahoc">
+              <a class="nav-link" href="categories.html">Khoa học</a>
+              <ul class="dropdown-menu-khoahoc">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Vũ trụ</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Thế giới tự nhiên</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Khám phá</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Đời sống</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Việc làm</a>
+            </li>
+        </ul>
+      </div>
+
+      <!-- Nav Mobile -->
+      <nav class="navbar navbar-header nav__mobile"  id="navbarToggleExternalContent">
+        <div class="container">
+          <ul class="nav flex-column nav__mobile-list">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                Trang chủ
+              </a>
+            </li>
+            <li class="nav-item dropdown-toggle-xahoi">
+              <a class="nav-link" href="categories.html">Xã hội</a>
+              <ul class="dropdown-menu-xahoi">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="post.html">Chính trị</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Giao thông</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Môi trường</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-thegioi">
+              <a class="nav-link" href="categories.html">Thế giới</a>
+              <ul class="dropdown-menu-thegioi">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="post.html">Châu Á</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Eu & Nga</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Châu Mỹ</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Hồ sơ & Phân tích</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Kiều bào</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-kinhte">
+              <a class="nav-link" href="post.html">Kinh tế</a>
+              <ul class="dropdown-menu-kinhte">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="post.html">Tài chính</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Doanh nghiệp</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Chứng khoán</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Khởi nghiệp</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-vanhoa">
+              <a class="nav-link" href="categories.html">Văn hoá</a>
+              <ul class="dropdown-menu-vanhoa">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="post.html">Điện ảnh</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Âm nhạc</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Văn học</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-phapluat">
+              <a class="nav-link" href="categories.html">Pháp luật</a>
+              <ul class="dropdown-menu-phapluat">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="post.html">Hồ sơ vụ án</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Pháp đình</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-thethao">
+              <a class="nav-link" href="categories.html">Thể thao</a>
+              <ul class="dropdown-menu-thethao">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Bóng đá</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Tenis</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Golf</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Võ thuật</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Hậu trường</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-giaitri">
+              <a class="nav-link" href="categories.html">Giải trí</a>
+              <ul class="dropdown-menu-giaitri">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Hậu trường</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Thời trang</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">TV show</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-giaoduc">
+              <a class="nav-link" href="categories.html">Giáo dục</a>
+              <ul class="dropdown-menu-giaoduc">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Góc phụ huynh</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Khuyến học</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Du học</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Tuyển sinh</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-dulich">
+              <a class="nav-link" href="categories.html">Du lịch</a>
+              <ul class="dropdown-menu-dulich">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Việt Nam</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Quốc tế</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Blogger</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-suckhoe">
+              <a class="nav-link" href="categories.html">Sức khoẻ</a>
+              <ul class="dropdown-menu-suckhoe">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Tư vấn</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Khoẻ đẹp</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Kiến thức giới tính</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown-toggle-khoahoc">
+              <a class="nav-link" href="categories.html">Khoa học</a>
+              <ul class="dropdown-menu-khoahoc">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Vũ trụ</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Thế giới tự nhiên</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-link" href="#">Khám phá</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Đời sống</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Việc làm</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+</header>
 
     <div class="wrapper">
       <div class="container">

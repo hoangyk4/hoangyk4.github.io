@@ -62,25 +62,43 @@ html{
         display: none;
     }
     .header_wrapper-top-logo-link{
-        top: 0 !important;
-        width: 100%;
+        top: 0;
         justify-content: center;
+        padding: 5px 0;
     }
     .col-flex-col{
-        flex-direction: column !important;
+        flex-direction: column;
     }
     .flex-col-item{
         max-width: 100%;
     }
     .btn-floating{
-        top: 0 !important;
-        height: 100% !important;
-        opacity: 0.2 !important;
+        top: 0;
+        height: 100%;
+        opacity: 0.2;
     }
     .content-body-card-top{
-        flex-direction: column !important;
+        flex-direction: column;
     }
     .card-img-top-categories{
-        width: 100% !important;
+        width: 100%;
+    }
+    .menu-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ccc;
+        height: 60px;
+        width: 60px;
+        margin-left: auto;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .header_wrapper-navbar-link{
+        font-size: 14px;
+    }
+    .nav__input:checked ~ .nav__mobile{
+        display: block;
     }
 }

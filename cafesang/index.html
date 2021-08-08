@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
 
     <!-- Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -45,11 +45,17 @@
 
       <div class="header_wrapper">
         <div class="header_wrapper-top">
-          <div class="w1200">
-            <a href="index.html" title="Tin tức, giải trí, xã hội" class="header_wrapper-top-logo-link">
-              <img src="./assets/img/cafesang_logo.PNG" alt="" class="header_wrapper-top-logo-img">
-            </a>
-
+          <div class="container">
+            <div class="header_wrapper-top-logo">
+              <a href="index.html" title="Tin tức, giải trí, xã hội" class="header_wrapper-top-logo-link">
+                <img src="./assets/img/cafesang_logo.PNG" alt="" class="header_wrapper-top-logo-img">
+              </a>
+  
+              <label for="nav-mobile-input" class="menu-bar navbar-toggler" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+                <i class="menu-bar-icon fas fa-bars"></i>
+            </label>
+            </div>
+  
             <div class="trending_wrapper">
               <ul class="trending_wrapper-list">
                 <li class="trending_wrapper-item">
@@ -71,7 +77,7 @@
       </div>
       
       <nav class="navbar navbar-header">
-          <div class="w1200">
+          <div class="container">
             <ul class="nav nav-tabs">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">
@@ -115,38 +121,63 @@
                 <a class="nav-link" href="#">
                   <i class="navbar-brand-icon fas fa-ellipsis-h"></i>
                 </a>
-                <!-- <div class="dropdown-menu-list">
-                  <div class="w1200">
-                    <ul class="dropdown-menu-item">
-                      <li class="dropdown-submenu">
-                        <a class="dropdown-link" href="post.html">Chính trị</a>
-                      </li>
-                      <li class="dropdown-submenu">
-                        <a class="dropdown-link" href="#">Giao thông</a>
-                      </li>
-                      <li class="dropdown-submenu">
-                        <a class="dropdown-link" href="#">Môi trường</a>
-                      </li>
-                    </ul>
-                    <ul class="dropdown-menu-item">
-                      <li class="dropdown-submenu">
-                        <a class="dropdown-link" href="post.html">Chính trị</a>
-                      </li>
-                      <li class="dropdown-submenu">
-                        <a class="dropdown-link" href="#">Giao thông</a>
-                      </li>
-                      <li class="dropdown-submenu">
-                        <a class="dropdown-link" href="#">Môi trường</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div> -->
-                
               </li>
           </ul>
         </div>
       </nav>
         
+      
+      <!-- Nav Mobile -->
+      <nav class="navbar navbar-header nav__mobile"  id="navbarToggleExternalContent">
+        <div class="container">
+          <ul class="nav flex-column nav__mobile-list">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Star</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">TV Show</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Cinema</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Musik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Beauty & Fashion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Đời sống</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Xã hội</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Thế giới</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Sport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Học đường</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Video</a>
+            </li>
+            <li class="nav-item dropdown-toggle-list">
+              <a class="nav-link" href="#">
+                <i class="navbar-brand-icon fas fa-ellipsis-h"></i>
+              </a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
     </header>
 
     <div class="wrapper">

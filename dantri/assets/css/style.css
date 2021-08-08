@@ -645,3 +645,26 @@
 .categories__content-right>ul>li>a:hover{
     color: #06c;
 }
+
+/* Nav Mobile */
+.menu-bar{
+    display: none;
+}
+.menu-bar-icon{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+.nav__mobile{
+    display: none;
+    height: 100%;
+    text-align: center;
+    z-index: 99;
+    background-color: var(--primary-color);
+    transform: translateX(0);
+    transition: transform linear 0.2s;
+    overflow-y:auto;
+}
+.nav__mobile-list{
+    width: 100%;
+    list-style: none;
+}

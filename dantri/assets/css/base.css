@@ -29,7 +29,7 @@ html{
         flex-direction: row;
     }
     .col-flex-col{
-        flex-direction: column !important;
+        flex-direction: column ;
     }
     .flex-col-item{
         max-width: 100%;
@@ -38,14 +38,14 @@ html{
         display: none;
     }
     .categories__header-top h1 a{
-        font-size: 20px !important;
-        line-height: 20px !important;
+        font-size: 20px ;
+        line-height: 20px ;
     }
     .categories__content-row{
         flex-direction: column;
     }
     .content-body-card-top{
-        flex-direction: column !important;
+        flex-direction: column ;
     }
     .col-4, .col-8{
         max-width: 100%;
@@ -65,7 +65,7 @@ html{
         flex-direction: row;
     }
     .col-flex-col{
-        flex-direction: column !important;
+        flex-direction: column ;
     }
     .flex-col-item{
         max-width: 100%;
@@ -74,8 +74,8 @@ html{
         display: none;
     }
     .categories__header-top h1 a{
-        font-size: 20px !important;
-        line-height: 20px !important;
+        font-size: 20px ;
+        line-height: 20px ;
     }
     .category-navigation{
         overflow: auto;
@@ -85,24 +85,24 @@ html{
         flex-direction: column;
     }
     .content-body-card-top{
-        flex-direction: column !important;
+        flex-direction: column;
     }
     .col-4, .col-8{
         max-width: 100%;
     }
     .list-unstyled>li>a{
-        font-size: 10px !important;
+        font-size: 10px;
     }
     .content-header-card-top{
-        flex-direction: column !important;
-        background-color: transparent !important;
+        flex-direction: column;
+        background-color: transparent;
 
     }
     .content-header-card-body{
-        max-width: 100% !important;
+        max-width: 100%;
     }
     .content-header-card-deck{
-        margin: 30px 0 !important;
+        margin: 30px 0 ;
     }
     .news__tag-list{
         display: flex;
@@ -110,4 +110,50 @@ html{
     .post__header{
         flex-direction: column;
     }
+    .menu-bar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .header_wrapper-navbar-link{
+        font-size: 14px;
+    }
+    .nav__input:checked ~ .nav__mobile{
+        display: block;
+    }
+    .nav-link{
+        color: var(--white-color);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+    .dropdown-link{
+        color: var(--font-color);
+
+    }
+    .dropdown-submenu{
+        border: none;
+    }
+    .dropdown-submenu>a{
+        text-align: center;
+    }
+    
+    .dropdown-menu-thegioi,
+    .dropdown-menu-kinhte,
+    .dropdown-menu-vanhoa,
+    .dropdown-menu-phapluat,
+    .dropdown-menu-thethao,
+    .dropdown-menu-giaitri,
+    .dropdown-menu-giaoduc,
+    .dropdown-menu-dulich,
+    .dropdown-menu-suckhoe,
+    .dropdown-menu-khoahoc,
+    .dropdown-menu-xahoi{
+        list-style: none;
+        padding: 0;
+    }
+
 }

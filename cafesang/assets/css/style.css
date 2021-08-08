@@ -489,3 +489,25 @@ footer{
     color: inherit;
     text-decoration: none;
 }
+
+/* Nav Mobile */
+.menu-bar{
+    display: none;
+}
+.menu-bar-icon{
+    font-size: 1.6rem;
+}
+
+.nav__mobile{
+    display: none;
+    height: 100%;
+    text-align: end;
+    z-index: 99;
+    transform: translateX(0);
+    transition: transform linear 0.2s;
+    overflow-y:auto;
+}
+.nav__mobile-list{
+    width: 100%;
+    list-style: none;
+}
